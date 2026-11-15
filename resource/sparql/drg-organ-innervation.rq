@@ -1,0 +1,100 @@
+# =============================================================================
+# QUERY:    Human / mouse DRG/TG sensory neurons compatible with cell types,
+#           read from stored RDF-star isCompatibleWith links
+# DATABASE: SCKAN (Stardog)
+# AUTHOR:   Fahim Imam
+# UPDATED:  Nov 14, 2026
+# =============================================================================
+#
+# LOGIC
+#   1. Link: << ?Neuron_Connected ilxtr:isCompatibleWith ?Cell_Type >> carries
+#      the evidence stored when the CONSTRUCT/INSERT was run: soma structure
+#      (DRG/TG), species, marker gene, circuit role, end organ and citation.
+#      The matching (terminal in the end organ, common soma/species/gene/
+#      circuit role) was already applied at insert time.
+#   2. Cell-type level properties are read from ?Cell_Type itself: labels,
+#      axon type, neurotransmitter, function, threshold, circuit membership.
+#   3. Labels for the annotation values come from the ontology data.
+# =============================================================================
+
+prefix ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+prefix neurdf.ent: <http://uri.interlex.org/tgbugs/uris/readable/neurdf/pred/ent/>
+prefix neurdf.eqv: <http://uri.interlex.org/tgbugs/uris/readable/neurdf/pred/eqv/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT
+    ?Neuron_Connected
+    ?Origin_Structure ?Origin
+    ?End_Organ_IRI ?End_Organ
+    ?Species_IRI ?Species
+    ?Gene_IRI ?Gene_Label
+    ?Circuit_Role_IRI ?Circuit_Role
+    ?Axon_Type_IRI ?Axon_Type
+    ?Cell_Type ?Cell_Type_Label ?Cell_Type_Orig_Label
+    ?Neurotransmitter_Phenotype_IRI ?Neurotransmitter_Phenotype
+    ?Functional_Phenotype_IRI ?Functional_Phenotype
+    ?Threshold_Phenotype_IRI ?Threshold_Phenotype
+    ?Neural_Circuit_IRI ?Neural_Circuit
+    ?Literature_Citation
+WHERE
+{
+    # ---- Parameters (optional filters) --------------------------------------
+    # VALUES ?End_Organ_IRI { UBERON:0002113 }          # kidney
+    # VALUES ?Species_IRI   { NCBITaxon:9606 }          # human
+
+    # ---- 1) Stored compatibility link and its annotations -------------------
+    ?Neuron_Connected ilxtr:isCompatibleWith ?Cell_Type .
+
+    << ?Neuron_Connected ilxtr:isCompatibleWith ?Cell_Type >>
+        ilxtr:hasSomaLocation     ?Origin_Structure ;
+        ilxtr:isObservedInSpecies ?Species_IRI ;
+        ilxtr:hasMarkerGene       ?Gene_IRI ;
+        ilxtr:hasCircuitRole      ?Circuit_Role_IRI ;
+        ilxtr:hasEndOrgan         ?End_Organ_IRI .
+
+    OPTIONAL 
+    {
+        << ?Neuron_Connected ilxtr:isCompatibleWith ?Cell_Type >>
+            ilxtr:literatureCitation ?Literature_Citation .
+    }
+
+    # ---- 2) Cell type -------------------------------------------------------
+    ?Cell_Type rdfs:label ?Cell_Type_Label ;
+               ilxtr:origLocalLabel ?Cell_Type_Orig_Label ;
+               neurdf.eqv:hasAxonPhenotype ?Axon_Type_IRI .
+
+    # ---- 3) Labels ----------------------------------------------------------
+    ?Origin_Structure rdfs:label ?Origin .
+    ?End_Organ_IRI    rdfs:label ?End_Organ .
+    ?Species_IRI      rdfs:label ?Species .
+    ?Gene_IRI         rdfs:label ?Gene_Label .
+    ?Circuit_Role_IRI rdfs:label ?Circuit_Role .
+    ?Axon_Type_IRI    rdfs:label ?Axon_Type .
+
+    # ---- 4) Optional extras (cell-type level) -------------------------------
+    OPTIONAL
+    {
+        ?Cell_Type neurdf.eqv:hasFunctionalPhenotype ?Functional_Phenotype_IRI .
+        ?Functional_Phenotype_IRI rdfs:label ?Functional_Phenotype .
+    }
+    
+    OPTIONAL
+    {
+        ?Cell_Type neurdf.eqv:hasThresholdPhenotype ?Threshold_Phenotype_IRI .
+        ?Threshold_Phenotype_IRI rdfs:label ?Threshold_Phenotype .
+    }
+    
+    OPTIONAL
+    {
+        ?Cell_Type neurdf.ent:isMemberOfCircuit ?Neural_Circuit_IRI .
+        ?Neural_Circuit_IRI rdfs:label ?Neural_Circuit .
+    }
+    
+    OPTIONAL
+    {
+        ?Cell_Type neurdf.eqv:hasNeurotransmitterPhenotype ?Neurotransmitter_Phenotype_IRI .
+        ?Neurotransmitter_Phenotype_IRI rdfs:label ?Neurotransmitter_Phenotype .
+    }
+}
+ORDER BY ?Neuron_Connected ?Cell_Type
+LIMIT 5000

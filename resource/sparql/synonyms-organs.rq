@@ -1,0 +1,27 @@
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+prefix NIFRID: <http://uri.neuinfo.org/nif/nifstd/readable/>
+prefix UBERON: <http://purl.obolibrary.org/obo/UBERON_>
+
+SELECT DISTINCT ?Organ_IRI ?Organ_Label ?Organ_Synonym
+WHERE
+{
+    VALUES ?Organ_Label
+    {
+        "heart" "ovary" "esophagus" "kidney" "lung" "liver"
+        "colon" "descending colon" "stomach" "urinary bladder" "penis" "skin of body"
+        "male reproductive system" "female reproductive system" "clitoris" "vagina"
+        "seminal vesicle" "uterus" "sweat gland" "scapular muscle" "sphincter muscle"
+        "flexor muscle" "muscle of shoulder" "head" "face" "membrane organ" "muscle organ"
+        "anal region" "renal system" "manus" "buttock" "mouth" "abdomen" "digestive system"
+        "trunk" "blood vessel" "pes" "bone element" "shoulder"
+    }
+
+    ?Organ_IRI rdfs:label ?Organ_Label .
+
+    # Must be a (transitive) subclass of UBERON anatomical entity
+    ?Organ_IRI rdfs:subClassOf+ UBERON:0001062 .
+
+    OPTIONAL { ?Organ_IRI (oboInOwl:hasExactSynonym | NIFRID:synonym) ?Organ_Synonym . }
+}
+ORDER BY ?Organ_Label ?Organ_IRI ?Organ_Synonym

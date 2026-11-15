@@ -1,0 +1,1107 @@
+{
+  "head": {
+    "vars": [
+      "Neuron_Connected",
+      "Origin_Structure",
+      "Origin",
+      "End_Organ_IRI",
+      "End_Organ",
+      "Species_IRI",
+      "Species",
+      "Gene_IRI",
+      "Gene_Label",
+      "Circuit_Role_IRI",
+      "Circuit_Role",
+      "Axon_Type_IRI",
+      "Axon_Type",
+      "Cell_Type",
+      "Cell_Type_Label",
+      "Cell_Type_Orig_Label",
+      "Neurotransmitter_Phenotype_IRI",
+      "Neurotransmitter_Phenotype",
+      "Functional_Phenotype_IRI",
+      "Functional_Phenotype",
+      "Threshold_Phenotype_IRI",
+      "Threshold_Phenotype",
+      "Neural_Circuit_IRI",
+      "Neural_Circuit",
+      "Literature_Citation"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/kidney/158"
+        },
+        "Origin_Structure": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "Origin": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "End_Organ_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002113"
+        },
+        "End_Organ": {
+          "type": "literal",
+          "value": "kidney"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Gene_IRI": {
+          "type": "uri",
+          "value": "http://www.ncbi.nlm.nih.gov/gene/63895"
+        },
+        "Gene_Label": {
+          "type": "literal",
+          "value": "PIEZO2"
+        },
+        "Circuit_Role_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/SensoryPhenotype"
+        },
+        "Circuit_Role": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Axon_Type_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796516"
+        },
+        "Axon_Type": {
+          "type": "literal",
+          "value": "type C nerve fiber"
+        },
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1022"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hC.LTMR (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hC.LTMR"
+        },
+        "Threshold_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796525"
+        },
+        "Threshold_Phenotype": {
+          "type": "literal",
+          "value": "low-threshold mechanosensitivity (LTM) phenotype"
+        },
+        "Literature_Citation": {
+          "type": "literal",
+          "value": "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/kidney/158"
+        },
+        "Origin_Structure": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "Origin": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "End_Organ_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002113"
+        },
+        "End_Organ": {
+          "type": "literal",
+          "value": "kidney"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Gene_IRI": {
+          "type": "uri",
+          "value": "http://www.ncbi.nlm.nih.gov/gene/63895"
+        },
+        "Gene_Label": {
+          "type": "literal",
+          "value": "PIEZO2"
+        },
+        "Circuit_Role_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/SensoryPhenotype"
+        },
+        "Circuit_Role": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Axon_Type_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796516"
+        },
+        "Axon_Type": {
+          "type": "literal",
+          "value": "type C nerve fiber"
+        },
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1026"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hPEP.TRPV1 A1.1 (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hPEP.TRPV1/A1.1 human neuron"
+        },
+        "Neurotransmitter_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Threshold_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796526"
+        },
+        "Threshold_Phenotype": {
+          "type": "literal",
+          "value": "high-threshold mechanosensitivity (HTM) phenotype"
+        },
+        "Neural_Circuit_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796530"
+        },
+        "Neural_Circuit": {
+          "type": "literal",
+          "value": "nociceptive circuit"
+        },
+        "Literature_Citation": {
+          "type": "literal",
+          "value": "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/kidney/158"
+        },
+        "Origin_Structure": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "Origin": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "End_Organ_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002113"
+        },
+        "End_Organ": {
+          "type": "literal",
+          "value": "kidney"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Gene_IRI": {
+          "type": "uri",
+          "value": "http://www.ncbi.nlm.nih.gov/gene/63895"
+        },
+        "Gene_Label": {
+          "type": "literal",
+          "value": "PIEZO2"
+        },
+        "Circuit_Role_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/SensoryPhenotype"
+        },
+        "Circuit_Role": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Axon_Type_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796510"
+        },
+        "Axon_Type": {
+          "type": "literal",
+          "value": "type A nerve fiber"
+        },
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1029"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hPEP.KIT (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hPEP.KIT"
+        },
+        "Neurotransmitter_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Threshold_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796526"
+        },
+        "Threshold_Phenotype": {
+          "type": "literal",
+          "value": "high-threshold mechanosensitivity (HTM) phenotype"
+        },
+        "Neural_Circuit_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796530"
+        },
+        "Neural_Circuit": {
+          "type": "literal",
+          "value": "nociceptive circuit"
+        },
+        "Literature_Citation": {
+          "type": "literal",
+          "value": "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/kidney/159"
+        },
+        "Origin_Structure": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "Origin": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "End_Organ_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002113"
+        },
+        "End_Organ": {
+          "type": "literal",
+          "value": "kidney"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Gene_IRI": {
+          "type": "uri",
+          "value": "http://www.ncbi.nlm.nih.gov/gene/63895"
+        },
+        "Gene_Label": {
+          "type": "literal",
+          "value": "PIEZO2"
+        },
+        "Circuit_Role_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/SensoryPhenotype"
+        },
+        "Circuit_Role": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Axon_Type_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796516"
+        },
+        "Axon_Type": {
+          "type": "literal",
+          "value": "type C nerve fiber"
+        },
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1022"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hC.LTMR (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hC.LTMR"
+        },
+        "Threshold_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796525"
+        },
+        "Threshold_Phenotype": {
+          "type": "literal",
+          "value": "low-threshold mechanosensitivity (LTM) phenotype"
+        },
+        "Literature_Citation": {
+          "type": "literal",
+          "value": "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/kidney/159"
+        },
+        "Origin_Structure": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "Origin": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "End_Organ_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002113"
+        },
+        "End_Organ": {
+          "type": "literal",
+          "value": "kidney"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Gene_IRI": {
+          "type": "uri",
+          "value": "http://www.ncbi.nlm.nih.gov/gene/63895"
+        },
+        "Gene_Label": {
+          "type": "literal",
+          "value": "PIEZO2"
+        },
+        "Circuit_Role_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/SensoryPhenotype"
+        },
+        "Circuit_Role": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Axon_Type_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796516"
+        },
+        "Axon_Type": {
+          "type": "literal",
+          "value": "type C nerve fiber"
+        },
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1026"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hPEP.TRPV1 A1.1 (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hPEP.TRPV1/A1.1 human neuron"
+        },
+        "Neurotransmitter_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Threshold_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796526"
+        },
+        "Threshold_Phenotype": {
+          "type": "literal",
+          "value": "high-threshold mechanosensitivity (HTM) phenotype"
+        },
+        "Neural_Circuit_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796530"
+        },
+        "Neural_Circuit": {
+          "type": "literal",
+          "value": "nociceptive circuit"
+        },
+        "Literature_Citation": {
+          "type": "literal",
+          "value": "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/kidney/159"
+        },
+        "Origin_Structure": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "Origin": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "End_Organ_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002113"
+        },
+        "End_Organ": {
+          "type": "literal",
+          "value": "kidney"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Gene_IRI": {
+          "type": "uri",
+          "value": "http://www.ncbi.nlm.nih.gov/gene/63895"
+        },
+        "Gene_Label": {
+          "type": "literal",
+          "value": "PIEZO2"
+        },
+        "Circuit_Role_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/SensoryPhenotype"
+        },
+        "Circuit_Role": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Axon_Type_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796510"
+        },
+        "Axon_Type": {
+          "type": "literal",
+          "value": "type A nerve fiber"
+        },
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1029"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hPEP.KIT (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hPEP.KIT"
+        },
+        "Neurotransmitter_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Threshold_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796526"
+        },
+        "Threshold_Phenotype": {
+          "type": "literal",
+          "value": "high-threshold mechanosensitivity (HTM) phenotype"
+        },
+        "Neural_Circuit_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796530"
+        },
+        "Neural_Circuit": {
+          "type": "literal",
+          "value": "nociceptive circuit"
+        },
+        "Literature_Citation": {
+          "type": "literal",
+          "value": "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/139"
+        },
+        "Origin_Structure": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "Origin": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "End_Organ_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002113"
+        },
+        "End_Organ": {
+          "type": "literal",
+          "value": "kidney"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Gene_IRI": {
+          "type": "uri",
+          "value": "http://www.ncbi.nlm.nih.gov/gene/63895"
+        },
+        "Gene_Label": {
+          "type": "literal",
+          "value": "PIEZO2"
+        },
+        "Circuit_Role_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/SensoryPhenotype"
+        },
+        "Circuit_Role": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Axon_Type_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796516"
+        },
+        "Axon_Type": {
+          "type": "literal",
+          "value": "type C nerve fiber"
+        },
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1022"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hC.LTMR (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hC.LTMR"
+        },
+        "Threshold_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796525"
+        },
+        "Threshold_Phenotype": {
+          "type": "literal",
+          "value": "low-threshold mechanosensitivity (LTM) phenotype"
+        },
+        "Literature_Citation": {
+          "type": "literal",
+          "value": "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/139"
+        },
+        "Origin_Structure": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "Origin": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "End_Organ_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002113"
+        },
+        "End_Organ": {
+          "type": "literal",
+          "value": "kidney"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Gene_IRI": {
+          "type": "uri",
+          "value": "http://www.ncbi.nlm.nih.gov/gene/63895"
+        },
+        "Gene_Label": {
+          "type": "literal",
+          "value": "PIEZO2"
+        },
+        "Circuit_Role_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/SensoryPhenotype"
+        },
+        "Circuit_Role": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Axon_Type_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796516"
+        },
+        "Axon_Type": {
+          "type": "literal",
+          "value": "type C nerve fiber"
+        },
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1026"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hPEP.TRPV1 A1.1 (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hPEP.TRPV1/A1.1 human neuron"
+        },
+        "Neurotransmitter_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Threshold_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796526"
+        },
+        "Threshold_Phenotype": {
+          "type": "literal",
+          "value": "high-threshold mechanosensitivity (HTM) phenotype"
+        },
+        "Neural_Circuit_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796530"
+        },
+        "Neural_Circuit": {
+          "type": "literal",
+          "value": "nociceptive circuit"
+        },
+        "Literature_Citation": {
+          "type": "literal",
+          "value": "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/139"
+        },
+        "Origin_Structure": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "Origin": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "End_Organ_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002113"
+        },
+        "End_Organ": {
+          "type": "literal",
+          "value": "kidney"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Gene_IRI": {
+          "type": "uri",
+          "value": "http://www.ncbi.nlm.nih.gov/gene/63895"
+        },
+        "Gene_Label": {
+          "type": "literal",
+          "value": "PIEZO2"
+        },
+        "Circuit_Role_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/SensoryPhenotype"
+        },
+        "Circuit_Role": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Axon_Type_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796510"
+        },
+        "Axon_Type": {
+          "type": "literal",
+          "value": "type A nerve fiber"
+        },
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1029"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hPEP.KIT (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hPEP.KIT"
+        },
+        "Neurotransmitter_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Threshold_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796526"
+        },
+        "Threshold_Phenotype": {
+          "type": "literal",
+          "value": "high-threshold mechanosensitivity (HTM) phenotype"
+        },
+        "Neural_Circuit_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796530"
+        },
+        "Neural_Circuit": {
+          "type": "literal",
+          "value": "nociceptive circuit"
+        },
+        "Literature_Citation": {
+          "type": "literal",
+          "value": "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/144"
+        },
+        "Origin_Structure": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "Origin": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "End_Organ_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002113"
+        },
+        "End_Organ": {
+          "type": "literal",
+          "value": "kidney"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Mus musculus"
+        },
+        "Gene_IRI": {
+          "type": "uri",
+          "value": "http://www.ncbi.nlm.nih.gov/gene/12310"
+        },
+        "Gene_Label": {
+          "type": "literal",
+          "value": "Calca"
+        },
+        "Circuit_Role_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/SensoryPhenotype"
+        },
+        "Circuit_Role": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Axon_Type_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796516"
+        },
+        "Axon_Type": {
+          "type": "literal",
+          "value": "type C nerve fiber"
+        },
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1063"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-alpha (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-alpha"
+        },
+        "Neurotransmitter_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Functional_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796528"
+        },
+        "Functional_Phenotype": {
+          "type": "literal",
+          "value": "heat-sensitive phenotype"
+        },
+        "Literature_Citation": {
+          "type": "literal",
+          "value": "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/144"
+        },
+        "Origin_Structure": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "Origin": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "End_Organ_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002113"
+        },
+        "End_Organ": {
+          "type": "literal",
+          "value": "kidney"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Mus musculus"
+        },
+        "Gene_IRI": {
+          "type": "uri",
+          "value": "http://www.ncbi.nlm.nih.gov/gene/12310"
+        },
+        "Gene_Label": {
+          "type": "literal",
+          "value": "Calca"
+        },
+        "Circuit_Role_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/SensoryPhenotype"
+        },
+        "Circuit_Role": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Axon_Type_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796514"
+        },
+        "Axon_Type": {
+          "type": "literal",
+          "value": "type A\u03b4 nerve fiber"
+        },
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1065"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-eta (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-eta"
+        },
+        "Neurotransmitter_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Functional_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0797460"
+        },
+        "Functional_Phenotype": {
+          "type": "literal",
+          "value": "mechanosensitive"
+        },
+        "Threshold_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796526"
+        },
+        "Threshold_Phenotype": {
+          "type": "literal",
+          "value": "high-threshold mechanosensitivity (HTM) phenotype"
+        },
+        "Literature_Citation": {
+          "type": "literal",
+          "value": "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/144"
+        },
+        "Origin_Structure": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "Origin": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "End_Organ_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002113"
+        },
+        "End_Organ": {
+          "type": "literal",
+          "value": "kidney"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Mus musculus"
+        },
+        "Gene_IRI": {
+          "type": "uri",
+          "value": "http://www.ncbi.nlm.nih.gov/gene/12310"
+        },
+        "Gene_Label": {
+          "type": "literal",
+          "value": "Calca"
+        },
+        "Circuit_Role_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/SensoryPhenotype"
+        },
+        "Circuit_Role": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Axon_Type_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796514"
+        },
+        "Axon_Type": {
+          "type": "literal",
+          "value": "type A\u03b4 nerve fiber"
+        },
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1069"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-zeta (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-zeta"
+        },
+        "Neurotransmitter_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Functional_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796528"
+        },
+        "Functional_Phenotype": {
+          "type": "literal",
+          "value": "heat-sensitive phenotype"
+        },
+        "Threshold_Phenotype_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796526"
+        },
+        "Threshold_Phenotype": {
+          "type": "literal",
+          "value": "high-threshold mechanosensitivity (HTM) phenotype"
+        },
+        "Literature_Citation": {
+          "type": "literal",
+          "value": "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860"
+        }
+      }
+    ]
+  }
+}

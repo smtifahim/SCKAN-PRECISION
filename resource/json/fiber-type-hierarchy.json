@@ -1,0 +1,732 @@
+{
+  "head": {
+    "vars": [
+      "Root_IRI",
+      "Parent_IRI",
+      "Parent_Label",
+      "Child_IRI",
+      "Child_Label",
+      "Child_Synonym"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006135"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "myelinated nerve fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796510"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "type A nerve fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "nerve fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006135"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "myelinated nerve fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "nerve fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0700019"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "parallel fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "nerve fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796518"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "rapidly adapting (RA) nerve fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "nerve fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_8410049"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "serosal nerve fiber of appendix"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "nerve fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796517"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "slowly adapting type 1 (SA1) nerve fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "nerve fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003965"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "sympathetic afferent fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "nerve fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003041"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "trigeminal nerve fibers"
+        },
+        "Child_Synonym": {
+          "type": "literal",
+          "value": "trigeminal nerve tract"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "nerve fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003041"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "trigeminal nerve fibers"
+        },
+        "Child_Synonym": {
+          "type": "literal",
+          "value": "fibrae nervi trigemini"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "nerve fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003041"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "trigeminal nerve fibers"
+        },
+        "Child_Synonym": {
+          "type": "literal",
+          "value": "central part of trigeminal nerve"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "nerve fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006136"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "unmyelinated nerve fiber"
+        },
+        "Child_Synonym": {
+          "type": "literal",
+          "value": "non-myelinated nerve fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0700019"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "parallel fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0700020"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "parallel fiber, bifurcated"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0700019"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "parallel fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_2002218"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "parallel fiber, teleost"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011924"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "postganglionic autonomic fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011929"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "postganglionic parasympathetic fiber"
+        },
+        "Child_Synonym": {
+          "type": "literal",
+          "value": "parasympathetic postganglionic fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011924"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "postganglionic autonomic fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011926"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "postganglionic sympathetic fiber"
+        },
+        "Child_Synonym": {
+          "type": "literal",
+          "value": "sympathetic postganglionic fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011929"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "postganglionic parasympathetic fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793738"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "Nerve fiber from submandibular ganglion to mouth mucosa"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011929"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "postganglionic parasympathetic fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793739"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "Nerve fiber from submandibular ganglion to sublingual gland"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011929"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "postganglionic parasympathetic fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793737"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "Nerve fiber from submandibular ganglion to submandibular gland"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011925"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "preganglionic autonomic fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011930"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "preganglionic parasympathetic fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011925"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "preganglionic autonomic fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011927"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "preganglionic sympathetic fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003041"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "trigeminal nerve fibers"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011924"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "postganglionic autonomic fiber"
+        },
+        "Child_Synonym": {
+          "type": "literal",
+          "value": "postganglionic nerve fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003041"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "trigeminal nerve fibers"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011924"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "postganglionic autonomic fiber"
+        },
+        "Child_Synonym": {
+          "type": "literal",
+          "value": "postganglionic autonomic fibre"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003041"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "trigeminal nerve fibers"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011925"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "preganglionic autonomic fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796510"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "type A nerve fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796511"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "type A\u03b1 (alpha) nerve fiber"
+        },
+        "Child_Synonym": {
+          "type": "literal",
+          "value": "type A alpha nerve fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796510"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "type A nerve fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796511"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "type A\u03b1 (alpha) nerve fiber"
+        },
+        "Child_Synonym": {
+          "type": "literal",
+          "value": "type A-alpha nerve fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796510"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "type A nerve fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796512"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "type A\u03b2 nerve fiber"
+        },
+        "Child_Synonym": {
+          "type": "literal",
+          "value": "type A beta nerve fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796510"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "type A nerve fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796512"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "type A\u03b2 nerve fiber"
+        },
+        "Child_Synonym": {
+          "type": "literal",
+          "value": "type A-beta nerve fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796510"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "type A nerve fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796514"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "type A\u03b4 nerve fiber"
+        },
+        "Child_Synonym": {
+          "type": "literal",
+          "value": "type A-delta nerve fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796510"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "type A nerve fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796514"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "type A\u03b4 nerve fiber"
+        },
+        "Child_Synonym": {
+          "type": "literal",
+          "value": "type A delta nerve fiber"
+        }
+      },
+      {
+        "Root_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006134"
+        },
+        "Parent_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006136"
+        },
+        "Parent_Label": {
+          "type": "literal",
+          "value": "unmyelinated nerve fiber"
+        },
+        "Child_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796516"
+        },
+        "Child_Label": {
+          "type": "literal",
+          "value": "type C nerve fiber"
+        }
+      }
+    ]
+  }
+}

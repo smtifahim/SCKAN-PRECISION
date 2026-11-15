@@ -1,0 +1,413 @@
+/* Resets, layout grid, typography and color tokens shared across the app. */
+
+:root {
+  --color-bg: #f7f8fa;
+  --color-surface: #ffffff;
+  --color-border: #e1e4e8;
+  --color-text: #1f2933;
+  --color-text-muted: #5b6673;
+  --color-primary: #2563eb;
+  --color-primary-dark: #1d4ed8;
+  --color-accent: #b8860b;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06);
+  --shadow-md: 0 4px 12px rgba(16, 24, 40, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.app-sticky-top {
+  background: var(--color-bg);
+}
+
+.app-header {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  padding: 18px 28px 0;
+}
+
+.app-title {
+  font-size: 22.5px; /* sized so the title spans the same width as the subtitle beneath it */
+  color: var(--color-text);
+  text-align: center;
+}
+
+.app-subtitle {
+  margin: 4px 0 14px;
+  color: var(--color-text-muted);
+  font-size: 13px;
+  text-align: center;
+}
+
+.app-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.app-tab {
+  border: none;
+  background: transparent;
+  padding: 10px 16px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.app-tab:hover {
+  color: var(--color-text);
+}
+
+.app-tab.is-active {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+}
+
+.app-main {
+  padding: 16px 28px 40px;
+}
+
+.view-a-chrome {
+  padding: 14px 28px 14px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.view-a-chrome[hidden] {
+  display: none;
+}
+
+.app-panel[hidden] {
+  display: none;
+}
+
+.coming-soon {
+  color: var(--color-text-muted);
+  font-style: italic;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Two columns: the main stack (population table, legend row, diagram) on
+   the left, and the candidate-match evidence panel as one tall column on the
+   right that starts level with the top of the population table. */
+.content-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: stretch;
+}
+
+.content-main {
+  min-width: 0;
+}
+
+.panel-heading {
+  font-size: 14px;
+  color: var(--color-text);
+  margin-bottom: 10px;
+}
+
+.diagram-panel {
+  padding: 0;
+}
+
+.table-panel {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: 14px;
+}
+
+/* ---- Population panel (SCKAN Population / Neural Connectivity / Candidate cell
+   types), the first card in the main column ---- */
+
+.population-panel-box {
+  min-width: 0;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: 4px;
+  margin: 0 0 14px;
+  position: relative;
+}
+
+/* ---- "Legend panel" row: layout (Left/Right, Top/Bottom) toggle on the
+   left edge, the compact shape legend centered, Export PNG / Issues on the
+   right edge - all in one row above the diagram ---- */
+
+.legend-panel-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: 8px 14px;
+  margin: 0 0 14px;
+}
+
+.legend-panel-row[hidden] {
+  display: none;
+}
+
+.legend-panel-row .btn-stack {
+  flex: 0 0 auto;
+}
+
+/* The layout-orientation (Left/Right, Top/Bottom) and action (Export PNG,
+   Issues) controls are stacked vertically rather than joined side-by-side -
+   see .btn-stack below for the shared column layout. */
+
+.btn-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 6px;
+}
+
+.btn-stack .btn {
+  border-radius: var(--radius-sm);
+}
+
+/* A thin divider separates the layout-orientation stack from the shape
+   legend box that follows it. */
+.layout-toggle-group {
+  padding-right: 14px;
+  border-right: 1px solid var(--color-border);
+}
+
+/* Only the active orientation reads as a solid button; the inactive one is
+   plain clickable text underneath it, matching the mockup. */
+.layout-toggle-group .btn:not(.is-active) {
+  background: transparent;
+  border-color: transparent;
+  color: var(--color-text);
+  padding: 7px 2px;
+}
+
+.layout-toggle-group .btn:not(.is-active):hover {
+  color: var(--color-primary);
+  border-color: transparent;
+}
+
+.legend-panel-center {
+  flex: 1 1 auto;
+  min-width: 0;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  background: transparent;
+}
+
+.diagram-row {
+  display: flex;
+  align-items: stretch;
+}
+
+.diagram-stack {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.legend-diagram-box,
+.diagram-box {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: 10px 14px;
+}
+
+.diagram-box {
+  position: relative; /* anchors the pathway toggle + zoom controls toolbar */
+}
+
+.evidence-panel[hidden],
+.resize-handle[hidden] {
+  display: none;
+}
+
+.evidence-panel {
+  width: 33vw;
+  min-width: 260px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: 14px;
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  /* Follows the viewport while scrolling so the panel's top is always
+     visible; longer content scrolls inside the panel. */
+  position: sticky;
+  top: 14px;
+  height: calc(100vh - 68px);
+}
+
+.resize-handle {
+  width: 14px;
+  cursor: col-resize;
+  position: relative;
+}
+
+.resize-handle::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  transform: translateX(-50%);
+  background: var(--color-border);
+  border-radius: 2px;
+}
+
+.resize-handle:hover::after {
+  background: var(--color-primary);
+}
+
+/* The population panel's own vertical resize handle, on its bottom edge. */
+.population-resize-handle {
+  height: 14px;
+  margin-top: -4px;
+  cursor: row-resize;
+  position: relative;
+}
+
+.population-resize-handle::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 2px;
+  transform: translateY(-50%);
+  background: var(--color-border);
+  border-radius: 2px;
+}
+
+.population-resize-handle:hover::after {
+  background: var(--color-primary);
+}
+
+body.is-resizing {
+  cursor: col-resize;
+  user-select: none;
+}
+
+body.is-resizing-vertical {
+  cursor: row-resize;
+  user-select: none;
+}
+
+/* Generic buttons / button groups shared by toolbar + reset */
+
+.btn {
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  padding: 7px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+.btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.btn.is-active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn-reset {
+  margin-left: auto;
+  align-self: flex-end;
+}
+
+.btn-group {
+  display: inline-flex;
+}
+
+.btn-group .btn {
+  border-radius: 0;
+}
+
+.btn-group .btn:first-child {
+  border-top-left-radius: var(--radius-sm);
+  border-bottom-left-radius: var(--radius-sm);
+}
+
+.btn-group .btn:last-child {
+  border-top-right-radius: var(--radius-sm);
+  border-bottom-right-radius: var(--radius-sm);
+  border-left: none;
+}
+
+.btn-group .btn:disabled {
+  cursor: not-allowed;
+  color: var(--color-text-muted);
+  opacity: 0.6;
+}
+
+.btn-group .btn:disabled:hover {
+  border-color: var(--color-border);
+  color: var(--color-text-muted);
+}
+
+.table-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.table-panel-header .panel-heading {
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .content-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .evidence-panel {
+    width: 100% !important;
+    margin-top: 14px;
+    position: static;
+    height: auto;
+    max-height: 80vh;
+  }
+  .resize-handle {
+    display: none;
+  }
+}

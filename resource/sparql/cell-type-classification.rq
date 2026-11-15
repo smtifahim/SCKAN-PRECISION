@@ -1,0 +1,44 @@
+prefix CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+prefix ILX: <http://uri.interlex.org/base/ilx_>
+prefix ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+prefix JAX: <http://jaxmice.jax.org/strain/>
+prefix NCBIGene: <http://www.ncbi.nlm.nih.gov/gene/>
+prefix NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
+prefix neurdf: <http://uri.interlex.org/tgbugs/uris/readable/neurdf/>
+prefix neurdf.ent: <http://uri.interlex.org/tgbugs/uris/readable/neurdf/pred/ent/>
+prefix neurdf.eqv: <http://uri.interlex.org/tgbugs/uris/readable/neurdf/pred/eqv/>
+prefix neurdf.eqv.io: <http://uri.interlex.org/tgbugs/uris/readable/neurdf/pred/eqv/intsec/>
+prefix neurdf.eqv.uo: <http://uri.interlex.org/tgbugs/uris/readable/neurdf/pred/eqv/union/>
+prefix npokb: <http://uri.interlex.org/npo/uris/neurons/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix SAO: <http://uri.neuinfo.org/nif/nifstd/sao>
+prefix TEMPIND: <http://uri.interlex.org/temp/uris/phenotype-indicators/>
+prefix UBERON: <http://purl.obolibrary.org/obo/UBERON_>
+
+SELECT distinct 
+?Cell_Type 
+?Cell_Type_Label ?Cell_Type_Orig_Label 
+?Parent_Cell_Type ?Parent_Cell_Type_Label ?Parent_Cell_Type_Orig_Label
+{
+    # ?Neuron_Connected rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
+    # VALUES ?sckan_neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
+
+    ?Cell_Type rdfs:subClassOf+ ilxtr:NeuronPrecision.
+    
+    OPTIONAL {?Cell_Type rdfs:subClassOf ?Parent_Cell_Type.}
+    
+    ?Cell_Type rdfs:label ?Cell_Type_Label.
+    ?Cell_Type ilxtr:origLocalLabel ?Cell_Type_Orig_Label.
+    
+    ?Parent_Cell_Type rdfs:label ?Parent_Cell_Type_Label.
+    ?Parent_Cell_Type ilxtr:origLocalLabel ?Parent_Cell_Type_Orig_Label.
+    
+    FILTER(isIRI(?Cell_Type) && isIRI(?Parent_Cell_Type))
+    FILTER(?Parent_Cell_Type != ilxtr:NeuronPrecision )
+    FILTER(?Cell_Type != ?Parent_Cell_Type)
+
+
+  #  ?Cell_Type neurdf:hasSomaLocatedIn/rdfs:label ?soma;
+}
+ORDER BY ?Parent_Cell_Type

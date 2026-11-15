@@ -1,0 +1,18 @@
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+prefix NIFRID: <http://uri.neuinfo.org/nif/nifstd/readable/>
+prefix UBERON: <http://purl.obolibrary.org/obo/UBERON_>
+
+SELECT DISTINCT ?Gene_IRI ?Gene_Label ?Gene_Synonym
+WHERE
+{
+    ?Cell_Type rdfs:subClassOf+ ilxtr:NeuronPrecision.
+
+    ?Cell_Type neurdf.eqv:hasNucleicAcidExpressionPhenotype ?Gene_IRI .
+    ?Gene_IRI rdfs:label ?Gene_Label .
+    ?Gene_IRI rdfs:subClassOf+ <http://purl.obolibrary.org/obo/SO_0000110> .
+
+    OPTIONAL { ?Gene_IRI ( NIFRID:synonym ) ?Gene_Synonym . }
+}
+ORDER BY ?Gene_Label ?Gene_IRI ?Gene_Synonym
+limit 9999

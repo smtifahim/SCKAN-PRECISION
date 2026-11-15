@@ -1,0 +1,93 @@
+# =============================================================================
+# QUERY:    Candidate cell types for DRG/TG sensory neurons (SCKAN)
+# DATABASE: SCKAN (Stardog)
+#
+# LOGIC
+#   1. Neuron: SCKAN neuron with soma region = DRG/TG or a subclass.
+#   2. Cell type: must share the neuron's soma region, axon type and
+#      circuit role (Sensory phenotype). Each is enforced by using the same
+#      variable on both sides: ?Origin_IRI, ?Axon_Type_IRI, ?Circuit_Role_IRI.
+#   3. Species: if the neuron has one, the cell type must match it;
+#      otherwise the cell type's species is reported.
+#   4. Function, threshold, circuit membership, neurotransmitter and gene
+#      are optional extras that never remove rows.
+# =============================================================================
+
+prefix ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+prefix neurdf.ent: <http://uri.interlex.org/tgbugs/uris/readable/neurdf/pred/ent/>
+prefix neurdf.eqv: <http://uri.interlex.org/tgbugs/uris/readable/neurdf/pred/eqv/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix UBERON: <http://purl.obolibrary.org/obo/UBERON_>
+
+SELECT DISTINCT
+    ?Neuron_Connected
+    ?Origin_IRI ?Origin
+    ?Species_IRI ?Species
+    ?Axon_Type_IRI ?Axon_Type
+    ?Gene_Phenotype_IRI ?Gene_Phenotype
+    ?Cell_Type ?Cell_Type_Label ?Cell_Type_Orig_Label
+    ?Functional_Phenotype_IRI ?Functional_Phenotype
+    ?Threshold_Phenotype_IRI ?Threshold_Phenotype
+    ?Neurotransmitter_Phenotype_IRI ?Neurotransmitter_Phenotype
+    ?Neural_Circuit_IRI ?Neural_Circuit
+WHERE
+{
+    # ---- Parameters ---------------------------------------------------------
+    VALUES ?sckan_neuron     { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
+    VALUES ?Origin_Structure { UBERON:0000044 UBERON:0001675 }   # DRG/TG and subclasses
+    VALUES ?Circuit_Role_IRI { ilxtr:SensoryPhenotype }
+
+    # ---- 1) The neuron ------------------------------------------------------
+    ?Neuron_Connected rdfs:subClassOf+ ?sckan_neuron .
+
+    << ?Neuron_Connected ilxtr:hasSomaLocation ?Soma_ID >> ilxtr:hasRegion ?Origin_IRI .
+    ?Origin_IRI rdfs:subClassOf* ?Origin_Structure .
+
+    ?Neuron_Connected ilxtr:hasAxonType    ?Axon_Type_IRI ;
+                      ilxtr:hasCircuitRole ?Circuit_Role_IRI .
+
+    OPTIONAL { ?Neuron_Connected ilxtr:isObservedInSpecies ?Species_IRI . }
+
+    # ---- 2) The cell type: common soma, axon type and circuit role ----------
+    ?Cell_Type rdfs:subClassOf+ ilxtr:NeuronPrecision ;
+               rdfs:label                         ?Cell_Type_Label ;
+               ilxtr:origLocalLabel               ?Cell_Type_Orig_Label ;
+               neurdf.eqv:hasSomaLocatedIn        ?Origin_IRI ;
+               neurdf.eqv:hasAxonPhenotype        ?Axon_Type_IRI ;
+               neurdf.ent:hasCircuitRolePhenotype ?Circuit_Role_IRI ;
+               neurdf.ent:hasInstanceInTaxon      ?Species_IRI .
+
+    # ---- 3) Labels (required) -----------------------------------------------
+    ?Origin_IRI    rdfs:label ?Origin .
+    ?Axon_Type_IRI rdfs:label ?Axon_Type .
+    ?Species_IRI   rdfs:label ?Species .
+
+    # ---- 4) Optional extras -------------------------------------------------
+    OPTIONAL {
+        ?Neuron_Connected ilxtr:hasFunction ?Functional_Phenotype_IRI .
+        ?Cell_Type neurdf.eqv:hasFunctionalPhenotype ?Functional_Phenotype_IRI .
+        ?Functional_Phenotype_IRI rdfs:label ?Functional_Phenotype .
+    }
+    OPTIONAL {
+        ?Neuron_Connected ilxtr:hasThreshold ?Threshold_Phenotype_IRI .
+        ?Cell_Type neurdf.eqv:hasThresholdPhenotype ?Threshold_Phenotype_IRI .
+        ?Threshold_Phenotype_IRI rdfs:label ?Threshold_Phenotype .
+    }
+    OPTIONAL {
+        ?Neuron_Connected ilxtr:hasCircuitMembership ?Neural_Circuit_IRI .
+        ?Cell_Type neurdf.ent:isMemberOfCircuit ?Neural_Circuit_IRI .
+        ?Neural_Circuit_IRI rdfs:label ?Neural_Circuit .
+    }
+    OPTIONAL {
+        # Cell-type level only (the neuron is not checked)
+        ?Cell_Type neurdf.eqv:hasNeurotransmitterPhenotype ?Neurotransmitter_Phenotype_IRI .
+        ?Neurotransmitter_Phenotype_IRI rdfs:label ?Neurotransmitter_Phenotype .
+    }
+    OPTIONAL {
+        # Cell-type level only (the neuron is not checked)
+        ?Cell_Type neurdf.eqv:hasNucleicAcidExpressionPhenotype ?Gene_Phenotype_IRI .
+        ?Gene_Phenotype_IRI rdfs:label ?Gene_Phenotype .
+    }
+}
+ORDER BY ?Neuron_Connected ?Cell_Type
+LIMIT 5000

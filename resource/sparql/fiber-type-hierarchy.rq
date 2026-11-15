@@ -1,0 +1,26 @@
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?Root_IRI ?Parent_IRI ?Parent_Label ?Child_IRI ?Child_Label ?Child_Synonym
+WHERE
+{
+    ?Root_IRI rdfs:label "nerve fiber" .
+
+    # Every descendant of the root, and the root itself
+    ?Child_IRI rdfs:subClassOf* ?Root_IRI .
+
+    # Its direct parent, kept only if the parent is also inside the subtree
+    ?Child_IRI  rdfs:subClassOf ?Parent_IRI .
+    ?Parent_IRI rdfs:subClassOf* ?Root_IRI .
+
+    FILTER (isIRI(?Parent_IRI))
+
+    ?Child_IRI  rdfs:label ?Child_Label .
+    ?Parent_IRI rdfs:label ?Parent_Label .
+    
+    OPTIONAL 
+    {
+        ?Child_IRI NIFRID:synonym ?Child_Synonym.
+        Filter (?Child_Synonym != ?Child_Label)
+    }
+}
+ORDER BY ?Parent_Label ?Child_Label

@@ -1,0 +1,3240 @@
+{
+  "head": {
+    "vars": [
+      "Cell_Type",
+      "Cell_Type_Label",
+      "Cell_Type_Orig_Label",
+      "Parent_Cell_Type",
+      "Parent_Cell_Type_Label",
+      "Parent_Cell_Type_Orig_Label"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1024"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hNP2 (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hNP2"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1004"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG C-NP.MRGPRX1 MRGPRX4 (Bhuiyan2025)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "C-NP.MRGPRX1/MRGPRX4"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1025"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hSST (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hSST"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1005"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG C-NP.SST (Bhuiyan2025)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "C-NP.SST"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1027"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hPEP.TRPV1 A1.2 (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hPEP.TRPV1/A1.2"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1017"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TRPA1 nociceptor (Tavares-Ferreira2022)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "TRPA1+ nociceptor"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1026"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hPEP.TRPV1 A1.1 (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hPEP.TRPV1/A1.1 human neuron"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1017"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TRPA1 nociceptor (Tavares-Ferreira2022)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "TRPA1+ nociceptor"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1000"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG C-PEP.TAC1 CHRNA3 (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "C-PEP.TAC1/CHRNA3"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1018"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG putative silent nociceptor (Tavares-Ferreira2022)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "putative silent nociceptor"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1024"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hNP2 (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hNP2"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1023"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hNP1 (Yu2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hNP1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1041"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG PEP1.1.b (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "PEP1.1.b"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1040"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG PEP1.1.a (Krauter2025)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "PEP1.1.a"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1069"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-zeta (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-zeta"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1046"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG PEP2.1 (Krauter2025)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "PEP2.1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1055"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Ad-LTMR (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Ad.LTMR"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1047"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG PEP2.2 (Krauter2025)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "PEP2.2"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1073"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Sst (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Sst"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1050"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG NP3 (Krauter2025)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "NP3"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1071"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Mrgprd (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Mrgprd"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1051"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG NP1 (Krauter2025)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "NP1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1067"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-theta1 (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-theta1"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1052"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG NP2.1 (Krauter2025)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "NP2.1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1053"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG NP2.2 (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "NP2.2"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1052"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG NP2.1 (Krauter2025)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "NP2.1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1027"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hPEP.TRPV1 A1.2 (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hPEP.TRPV1/A1.2"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1070"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-iota (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-iota1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1026"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hPEP.TRPV1 A1.1 (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hPEP.TRPV1/A1.1 human neuron"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1070"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-iota (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-iota1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1068"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-theta2 (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-theta2"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1070"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-iota (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-iota1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1067"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-theta1 (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-theta1"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1070"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-iota (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-iota1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1063"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-alpha (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-alpha"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1070"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-iota (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-iota1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1002"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG C-PEP.ADORA2B (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "C-PEP.ADORA2B"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1070"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-iota (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-iota1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1000"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG C-PEP.TAC1 CHRNA3 (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "C-PEP.TAC1/CHRNA3"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1070"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-iota (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-iota1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1064"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-epsilon (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-epsilon"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1070"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-iota (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-iota1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1001"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG C-PEP.TAC1 CACNG5 (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "C-PEP.TAC1/CACNG5"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1070"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-iota (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-iota1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1059"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Ab Field.SA1.LTMR (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Ab field.SA1-LTMR"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1072"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Proprioceptors (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Proprioceptors"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1060"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Ab RA.LTMR (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Ab RA-LTMR"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1072"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Proprioceptors (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Proprioceptors"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1057"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Ab Field-LTMR (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Ab.Field.LTMRs"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1072"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Proprioceptors (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Proprioceptors"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1062"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG C LTMR (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "C-LTMR"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1065"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-eta (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-eta"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1066"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-gamma (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-gamma"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1074"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Trmp8 (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Trmp8"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1044"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG PEP1.3.b (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "PEP1.3.b"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1043"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG PEP1.3.a (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "PEP1.3.a"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1042"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG PEP1.2 (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "PEP1.2"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1040"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG PEP1.1.a (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "PEP1.1.a"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1039"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Trpm8.2 (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Trpm8.2"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1038"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Trpm8.1 (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Trpm8.1"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1036"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hATF3 (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hATF3"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1034"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hAb.LTMR (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hAb.LTMR"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1033"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hAd.LTMR (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hAd.LTMR"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1032"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hPEP.O (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hPEP.O"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1031"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG nPEP.NTRK3 (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "nPEP.NTRK3"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1028"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hPEP.PIEZO (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hPEP.PIEZO"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1023"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hNP1 (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hNP1"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1022"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hC.LTMR (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hC.LTMR"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1021"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "hTRPM8 (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hTRPM8"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1020"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG putative C-LTMR (Tavares-Ferreira2022)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "putative C-LTMR"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/917"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Pvalb human (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Pvalb"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/918"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Pvalb macaque (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Pvalb"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/919"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Pvalb guinea pig (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Pvalb"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/915"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Pvalb (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Pvalb master"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/999"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG ATF (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "ATF3"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1018"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG putative silent nociceptor (Tavares-Ferreira2022)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "putative silent nociceptor"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1070"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-iota (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-iota1"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1003"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG C-NP.MRGPRX1 GFRA2 (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "C-NP.MRGPRX1/GFRA2"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1004"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG C-NP.MRGPRX1 MRGPRX4 (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "C-NP.MRGPRX1/MRGPRX4"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1005"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG C-NP.SST (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "C-NP.SST"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1006"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG C-LTMR.CDH9 (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "C-LTMR.CDH9"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1007"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG C-Thermo.RXFP1 (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "C-Thermo.RXFP1"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1008"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG C-Thermo.TRPM8 (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "C-Thermo.TRPM8"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1011"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG AB RA LTMR (Tavares-Ferreira2022)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "AB RA LTMR"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1012"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Ad LTMR (Tavares-Ferreira2022)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Ad LTMR"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1013"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG pututive Ab nociceptor (Tavares-Ferreira2022)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "pututive Ab nociceptor"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1014"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG cold nociceptor (Tavares-Ferreira2022)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "cold nociceptor"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1015"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Ad HTMR (Tavares-Ferreira2022)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Ad HTMR"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1016"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG PENK nociceptor (Tavares-Ferreira2022)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "PENK+ nociceptor"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1017"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TRPA1 nociceptor (Tavares-Ferreira2022)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "TRPA1+ nociceptor"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1019"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG pruritogen receptor enriched (Tavares-Ferreira2022)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "pruritogen receptor enriched"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/998"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG A-PEP.SCGN ADRA2C (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "A-PEP.SCGN/ADRA2C"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/997"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG A-PEP.KIT (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "A-PEP.KIT"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/996"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG A-PEP.NTRK3 S100A16 (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "A-PEP.NTRK3/S100A16"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/995"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG A-PEP.CHRNA7 SLC18A3 (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "A-PEP.CHRNA7/SLC18A3"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/994"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG A-Propr.PCDH8 (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "A-Propr.PCDH8"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/993"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG A-Propr.EPHA3 (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "A-Propr.EPHA3"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1061"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Ad LTMR (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Ad-LTMR"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1058"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Proprioceptor (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Proprioceptor"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1072"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Proprioceptors (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Proprioceptors"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1056"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Ab RA-LTMR (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Ab.RA.LTMRs"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1054"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG C-LTMR (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "C.LTMR"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1052"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG NP2.1 (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "NP2.1"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1051"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG NP1 (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "NP1"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1050"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG NP3 (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "NP3"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1049"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG PEP3.2 (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "PEP3.2"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1048"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG PEP3.1 (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "PEP3.1"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1047"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG PEP2.2 (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "PEP2.2"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1046"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG PEP2.1 (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "PEP2.1"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1045"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG PEP1.4 (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "PEP1.4"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/967"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Calca+Dcn (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Calca+Dcn"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/969"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Rxfp1 (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Rxfp1"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/971"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Rxfp1 macaque (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Rxfp1"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/973"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Trpm8 mouse (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Trpm8"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/987"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Ab-LTMR.ETV1 (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Ab-LTMR.ETV"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/988"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Ab-LTMR.LGI2 (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Ab-LTMR.LGI2"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/989"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Ab-LTMR.NSG2 (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Ab-LTMR.NSG2"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/990"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Ab-LTMR.CCKAR (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Ab-LTMR.CCKAR"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/991"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG A-LTMR.TAC3 (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "A-LTMR.TAC3"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/992"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG A-Propr.HAPLN4 (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "A-Propr.HAPLN4"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1075"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG unassigned (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "unassigned"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1099"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG epineurial fibroblast cell (Bhuiyan2025)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "DRG epineurial fibroblast cell"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/916"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Pvalb mouse (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Pvalb"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/915"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Pvalb (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Pvalb master"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1010"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG AB SA LTMR (Tavares-Ferreira2022)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "AB SA LTMR"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/917"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Pvalb human (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Pvalb"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1009"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG proprioceptor (Tavares-Ferreira2022)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "proprioceptor"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/917"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Pvalb human (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Pvalb"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1035"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hPropr (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hPropr"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/917"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Pvalb human (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Pvalb"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1030"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hPEP.CHRNA7 (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hPEP.CHRNA7"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/917"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Pvalb human (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Pvalb"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/930"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Ntrk3^low+Ntrk2 mouse (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Ntrk3^low+Ntrk2"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/929"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Ntrk3^low+Ntrk2 (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Ntrk3^low+Ntrk2"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1069"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-zeta (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-zeta"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/934"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Calca+Smr2 (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Calca+Smr2"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/940"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Calca+Bmpr1b mouse (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Calca+Bmpr1b"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/939"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Calca+Bmpr1b (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Calca+Bmpr1b"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1065"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-eta (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-eta"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/939"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Calca+Bmpr1b (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Calca+Bmpr1b"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1006"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG C-LTMR.CDH9 (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "C-LTMR.CDH9"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/946"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Th human (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Th"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1051"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG NP1 (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "NP1"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/949"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Mrgprd (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Mrgprd"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1071"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Mrgprd (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Mrgprd"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/950"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Mrgprd mouse (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Mrgprd"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/955"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Mrgpra3+Trpv1 mouse (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Mrgpra3+Trpv1"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/954"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Mrgpra3+Trpv1 (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Mrgpra3+Trpv1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/957"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Mrgpra3+Mrgprb4 mouse (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Mrgpra3+Trpv1"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/956"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Mrgpra3+Mrgprb4 (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Mrgpra3+Trpv1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1053"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG NP2.2 (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "NP2.2"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/956"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Mrgpra3+Mrgprb4 (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Mrgpra3+Trpv1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1063"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-alpha (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-alpha"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/958"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Calca+Sstr2 (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Calca+Sstr2"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/963"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Calca+Oprk1 mouse (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Calca+Oprk1"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/962"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Calca+Oprk1 (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Calca+Oprk1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1066"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG CGRP-gamma (Qi2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "CGRP-gamma"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/964"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Calca+Adra2a (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Calca+Adra2a"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/965"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Calca+Adra2a mouse (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Calca+Adra2a"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/964"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Calca+Adra2a (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Calca+Adra2a"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/968"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Calca+Dcn mouse (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Calca+Dcn"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/967"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Calca+Dcn (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Calca+Dcn"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/970"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Rxfp1 mouse (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Rxfp1"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/969"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Rxfp1 (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Rxfp1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1037"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Rxfp1 (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Rxfp1"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/970"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG Rxfp1 mouse (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Rxfp1"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/973"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Trpm8 mouse (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Trpm8"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/972"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Trpm8 (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Trpm8"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1050"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG NP3 (Krauter2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "NP3"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/977"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Sst (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Sst"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/978"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Sst mouse (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Sst"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/977"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Sst (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Sst"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/983"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Atf3 mouse (Bhuiyan2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Atf3"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/982"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG Atf3 (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Atf3"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/999"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG ATF (Bhuiyan2025)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "ATF3"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/984"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG TG ATF3 human (Bhuiyan2024)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "Atf3"
+        }
+      },
+      {
+        "Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/1029"
+        },
+        "Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG hPEP.KIT (Yu2024)"
+        },
+        "Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "hPEP.KIT"
+        },
+        "Parent_Cell_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/npo/uris/neurons/997"
+        },
+        "Parent_Cell_Type_Label": {
+          "type": "literal",
+          "value": "DRG A-PEP.KIT (Bhuiyan2025)"
+        },
+        "Parent_Cell_Type_Orig_Label": {
+          "type": "literal",
+          "value": "A-PEP.KIT"
+        }
+      }
+    ]
+  }
+}

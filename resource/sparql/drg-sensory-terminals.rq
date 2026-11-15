@@ -1,0 +1,72 @@
+# =============================================================================
+# QUERY:    Sensory neurons (DRG/TG) and all forward-connected neurons,
+#           with sensory-terminal and terminal locations
+# DATABASE: SCKAN (Stardog)
+#
+# PURPOSE
+#   ?Neuron_Connected includes every DRG/TG sensory neuron (the seeds) AND every
+#   neuron reachable from a seed through ilxtr:hasForwardConnection.
+#   For each, only ilxtr:hasAxonSensoryLocation and
+#   ilxtr:hasAxonTerminalLocation values are returned.
+#
+# NOTES
+#   - hasForwardConnection* follows the whole downstream chain (zero or more
+#     hops). Use "?" for the seed plus direct targets only.
+#   - The location pattern is OPTIONAL, so neurons with no sensory/terminal
+#     location are still listed (location columns are unbound).
+# =============================================================================
+
+prefix ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix UBERON: <http://purl.obolibrary.org/obo/UBERON_>
+
+SELECT DISTINCT
+    #?Seed_Neuron
+    ?Neuron_Connected
+    ?Neuron_Label
+    ?Location_Type
+    ?Location_ID
+    ?Location_Label
+WHERE
+{
+    #  Filter (Contains (STR(?Neuron_Connected), 'pain1')).
+
+
+    # 1) Seed sensory neurons (DRG/TG) + all forward-connected neurons
+    {
+        SELECT DISTINCT ?Seed_Neuron ?Neuron_Connected
+        WHERE
+        {
+            VALUES ?sckan_neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
+            VALUES ?Origin_Structure { UBERON:0000044 UBERON:0001675 }   # DRG/TG
+
+            ?Seed_Neuron rdfs:subClassOf+ ?sckan_neuron .
+            ?Origin_IRI  rdfs:subClassOf* ?Origin_Structure .
+            ?Seed_Neuron ilxtr:hasSomaLocation ?Origin_IRI ;
+                         ilxtr:hasCircuitRole  ?Circuit_Role_IRI .
+            ?Circuit_Role_IRI rdfs:label ?Circuit_Role .
+            FILTER (?Circuit_Role = 'Sensory phenotype')
+
+            ?Seed_Neuron ilxtr:hasForwardConnection* ?Neuron_Connected .
+        }
+    }
+
+    ?Neuron_Connected skos:prefLabel ?Neuron_Label .
+
+    # 2) Only the sensory-terminal and terminal locations
+    OPTIONAL 
+    {
+        VALUES ?Location_Phenotype { ilxtr:hasAxonSensoryLocation ilxtr:hasAxonTerminalLocation }
+
+        ?Neuron_Connected ?Location_Phenotype ?Location_ID .
+        ?Location_Phenotype rdfs:label ?Location_Type .
+
+        # Label from the annotation on the triple, falling back to the term's own label
+        OPTIONAL { << ?Neuron_Connected ?Location_Phenotype ?Location_ID >> rdfs:label ?Annotated_Label . }
+        OPTIONAL { ?Location_ID rdfs:label ?Term_Label . }
+        BIND(COALESCE(?Annotated_Label, ?Term_Label) AS ?Location_Label)
+    }
+}
+ORDER BY ?Neuron_Connected ?Location_Type
+LIMIT 5000

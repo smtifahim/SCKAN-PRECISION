@@ -1,0 +1,448 @@
+/* The Graphviz-rendered legend box, the main diagram container and its
+   hover/click affordances, the population caption panel (beside the
+   control button grid, own scroller), and the right-hand "candidate match
+   evidence" panel. */
+
+/* ---- Legend (rendered as a Graphviz diagram, so text sits inside shapes) --- */
+
+.legend-diagram-box svg {
+  display: block;
+  margin: 0 auto;
+  max-height: 64px;
+  width: auto;
+  max-width: 100%;
+}
+
+/* ---- Diagram container ---- */
+
+.diagram-container {
+  position: relative;
+  min-height: 360px;
+  text-align: center; /* keeps the (possibly narrower-than-container) SVG centered, not left-aligned */
+}
+
+/* Zoom/pan: the SVG sits in a layer that is transformed inside a clipping
+   viewport (see js/diagram/zoomPan.js). */
+.diagram-viewport {
+  overflow: hidden;
+}
+
+.diagram-viewport.is-zoomed {
+  cursor: grab;
+}
+
+.diagram-viewport.is-panning {
+  cursor: grabbing;
+  user-select: none;
+}
+
+.diagram-zoom-layer {
+  transform-origin: 0 0;
+  will-change: transform;
+}
+
+/* Toolbar floating over the diagram's top-right corner: the pathway
+   direction toggle, then (to its right) the zoom controls, which
+   js/diagram/zoomPan.js renders into .diagram-zoom-slot. */
+.diagram-toolbar {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.diagram-toolbar .btn {
+  min-width: 34px;
+  padding: 4px 10px;
+}
+
+.diagram-zoom-slot {
+  display: flex;
+}
+
+.diagram-zoom-controls {
+  display: inline-flex;
+  background: var(--color-surface);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+}
+
+.diagram-zoom-controls .btn {
+  border-radius: 0;
+}
+
+.diagram-zoom-controls .btn:first-child {
+  border-top-left-radius: var(--radius-sm);
+  border-bottom-left-radius: var(--radius-sm);
+}
+
+.diagram-zoom-controls .btn:last-child {
+  border-top-right-radius: var(--radius-sm);
+  border-bottom-right-radius: var(--radius-sm);
+}
+
+.diagram-zoom-controls .btn + .btn {
+  border-left: none;
+}
+
+.diagram-empty {
+  color: var(--color-text-muted);
+  font-size: 13px;
+  padding: 24px 8px;
+  text-align: center;
+}
+
+/* Per-diagram caption (curie + preferred label) under the diagram itself -
+   kept narrow and centered on purpose, so it wraps across a few lines
+   instead of stretching into one long line on wide-angle monitors. */
+.diagram-caption {
+  max-width: 640px;
+  margin: 10px auto 2px;
+  padding-top: 10px;
+  border-top: 1px solid var(--color-border);
+  font-size: 12.5px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--color-text);
+}
+
+.diagram-caption strong {
+  font-family: 'SFMono-Regular', Consolas, monospace;
+  color: var(--color-primary);
+  margin-right: 6px;
+}
+
+.diagram-caption a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.diagram-caption a:hover {
+  text-decoration: underline;
+}
+
+/* When the pathway chains through a synapse into a second neuron, there are
+   multiple caption rows (one per neuron) - add a little breathing room
+   between them. */
+.diagram-caption div + div {
+  margin-top: 6px;
+}
+
+.partial-order-svg {
+  width: 100%;
+  height: auto;
+  max-height: 65vh;
+}
+
+.partial-order-svg .candidate-edge {
+  cursor: pointer;
+}
+
+.partial-order-svg .candidate-edge path {
+  transition: stroke-width 0.12s ease, stroke 0.12s ease;
+}
+
+.partial-order-svg .candidate-edge:hover path:not(.candidate-edge-hit-target) {
+  stroke-width: 3.4;
+  stroke: #8a6400;
+}
+
+/* PRECISION cell type nodes are clickable too (they open the same candidate
+   match evidence as the dotted edges). */
+.partial-order-svg .candidate-node {
+  cursor: pointer;
+}
+
+.partial-order-svg .candidate-node:hover text {
+  filter: brightness(0.8);
+}
+
+.partial-order-svg .node a:hover ellipse,
+.partial-order-svg .node a:hover polygon {
+  filter: brightness(0.95);
+}
+
+/* ---- Population caption panel (its own card, own scroller, scrolls with
+   the page above the diagram, beside the control button grid - never grows
+   past half the viewport height, and its right edge lines up with the
+   evidence panel's right edge below since both rows span the same content
+   width) --- */
+
+.population-scroll {
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+.population-caption-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12.5px;
+  table-layout: fixed;
+}
+
+.population-caption-table .col-population {
+  width: 110px;
+}
+
+.population-caption-table .col-connectivity {
+  width: auto;
+  text-align: center;
+}
+
+.population-caption-table .col-candidates {
+  width: 46%;
+}
+
+.population-caption-table th {
+  text-align: left;
+  color: var(--color-text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 0.03em;
+  padding: 6px 10px;
+  background: var(--color-bg);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.population-caption-table td {
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+}
+
+.population-row {
+  cursor: pointer;
+}
+
+.population-row:hover {
+  background: #f7f9ff;
+}
+
+.population-row.is-active {
+  background: #eef2ff;
+}
+
+.population-row.is-active td:first-child {
+  box-shadow: inset 3px 0 0 var(--color-primary);
+}
+
+.population-curie-cell {
+  white-space: nowrap;
+  font-family: 'SFMono-Regular', Consolas, monospace;
+  font-size: 12px;
+}
+
+.population-curie-link {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.population-curie-link:hover {
+  text-decoration: underline;
+}
+
+.population-badge {
+  font-size: 10.5px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.population-badge-match {
+  background: #fff3cd;
+  color: #8a6400;
+}
+
+.population-badge-none {
+  background: var(--color-bg);
+  color: var(--color-text-muted);
+}
+
+/* Candidate cell types: the count pill sits on the first row together with
+   up to 2 cell-type links; every row after that holds at most 2 more, each
+   linked to NervoSensus. */
+.population-candidates {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 2px;
+}
+
+.candidate-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.population-candidates.is-collapsed .is-extra {
+  display: none;
+}
+
+.candidate-toggle {
+  align-self: flex-start;
+  border: none;
+  background: none;
+  padding: 0;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.candidate-toggle:hover {
+  text-decoration: underline;
+}
+
+.candidate-chip a {
+  display: inline-block;
+  background: #e0ecfc;
+  color: #1d4ed8;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 11.5px;
+}
+
+.candidate-chip a:hover {
+  background: #cfe0fb;
+  text-decoration: none;
+}
+
+/* Phenotype-overlap score shown next to each candidate chip (View B only). */
+.candidate-chip-score {
+  margin-left: 2px;
+  color: var(--color-text-muted);
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.population-empty {
+  color: var(--color-text-muted);
+  font-size: 12.5px;
+  padding: 8px;
+}
+
+/* ---- Candidate match evidence panel (right side) ---- */
+
+.legend-box {
+  font-size: 12.5px;
+}
+
+.legend-title {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.legend-subtitle {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  margin: 10px 0 6px;
+}
+
+.legend-arrow {
+  color: var(--color-accent);
+  margin: 0 4px;
+}
+
+/* Match-strength badge (View B): how many of the 6 optional phenotype
+   fields a candidate row actually shares with the SCKAN population. */
+.legend-match-score {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: #e6f6e9;
+  color: #2f6b3a;
+  font-size: 10.5px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.legend-hint {
+  color: var(--color-text-muted);
+  font-size: 11px;
+}
+
+.legend-empty {
+  color: var(--color-text-muted);
+}
+
+.legend-evidence-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.legend-evidence-table th {
+  text-align: left;
+  color: var(--color-text-muted);
+  font-weight: 600;
+  padding: 3px 8px 3px 0;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.legend-evidence-table td {
+  padding: 3px 0;
+}
+
+.legend-suggested-list {
+  margin: 0;
+  padding-left: 16px;
+}
+
+.legend-suggested-list li {
+  margin-bottom: 4px;
+}
+
+.legend-box a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.legend-box a:hover {
+  text-decoration: underline;
+}
+
+/* The currently-selected candidate match (clicked edge, or picked from the
+   "Other cell type matches" list below) - a subtle highlighted card so it's
+   visually distinct from the other-matches list underneath it. */
+.legend-selected-match {
+  background: #fffaf0;
+  border: 1px solid #f0d9a6;
+  border-radius: var(--radius-sm);
+  padding: 8px 10px 4px;
+}
+
+.legend-other-header {
+  margin-top: 14px;
+}
+
+.legend-other-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Each "other" match shows the same full evidence detail as the selected
+   one, just without the highlight fill - clicking anywhere on the card
+   (other than a link) promotes it to the selected/highlighted slot above. */
+.legend-match-card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px 4px;
+  cursor: pointer;
+}
+
+.legend-match-card:hover {
+  border-color: var(--color-primary);
+}

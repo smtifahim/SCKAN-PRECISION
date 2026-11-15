@@ -1,0 +1,143 @@
+# =============================================================================
+# QUERY:    Sensory neurons (DRG/TG) and their forward-connected target neurons
+# DATABASE: SCKAN (Stardog)
+# AUTHOR:   Fahim Imam
+# UPDATED:  Nov 13, 2026
+# =============================================================================
+#
+# PURPOSE
+#   Lists every sensory neuron with a soma in the dorsal root ganglion (DRG) or
+#   trigeminal ganglion (TG), together with the neurons it connects to via
+#   ilxtr:hasForwardConnection. Each neuron is returned as ?Neuron_Connected,
+#   and for each one the query reports its route nodes (V1 -> V2) and whether
+#   the route ends in a synapse.
+#
+# HOW IT WORKS
+#   1. SEED SELECTION (subquery)
+#      ?Seed_Neuron is restricted to:
+#        - SCKAN neurons (subclass of ilxtr:NeuronComposer or
+#          ilxtr:NeuronApinatComplex)
+#        - soma located in DRG (UBERON:0000044) or TG (UBERON:0001675),
+#          including their subclasses
+#        - circuit role label = 'Sensory phenotype'
+#
+#   2. SEED + TARGET EXPANSION
+#      "?Seed_Neuron ilxtr:hasForwardConnection? ?Neuron_Connected" uses a
+#      zero-or-one property path, so ?Neuron_Connected is both the seed itself
+#      (zero hops) and its direct forward targets (one hop). The seed filters
+#      from step 1 are NOT applied to the targets, so targets appear even if
+#      they are not DRG/TG sensory neurons.
+#
+#   3. ROUTE DETAILS
+#      For each ?Neuron_Connected, the RDF-star pattern
+#        << ?V1_ID ilxtr:hasNextNode ?V2_ID >> ilxtr:isConnectedBy ?Neuron_Connected
+#      gives consecutive route nodes. Their labels and phenotype types are
+#      taken from the annotated triples
+#        << ?Neuron_Connected ?V*_Phenotype ?V*_ID >> rdfs:label ?V*
+#
+#   4. SYNAPSE FLAG
+#      ?IsSynapse = "YES" when V2 is an axon terminal location
+#      (hasAxonTerminalLocation) AND V2 is the soma location of one of the
+#      neuron's forward-connected neurons; otherwise "NO".
+#
+# OUTPUT COLUMNS
+#   ?Seed_Neuron       Sensory DRG/TG neuron the row originated from.
+#                      Equals ?Neuron_Connected on seed rows; the upstream
+#                      neuron on target rows.
+#   ?Neuron_Connected  Neuron described in this row (seed or target).
+#   ?Neuron_Label      skos:prefLabel of ?Neuron_Connected.
+#   ?Target_Neuron     Neuron(s) that ?Neuron_Connected connects forward to
+#                      (unbound if none).
+#   ?V1_ID, ?V1        Start node of the route segment: IRI and label.
+#   ?V1_Type           Phenotype of V1 (hasSomaLocation, hasAxonLocation,
+#                      hasAxonToSensoryTerminal).
+#   ?V2_ID, ?V2        End node of the route segment: IRI and label.
+#   ?V2_Type           Phenotype of V2 (hasAxonLocation, hasAxonSensoryLocation,
+#                      hasAxonTerminalLocation, hasAxonToSensoryTerminal).
+#   ?IsSynapse         "YES" / "NO" (see step 4).
+#
+# CUSTOMIZATION
+#   - Whole downstream chain: change "hasForwardConnection?" to
+#     "hasForwardConnection*" (zero or more hops).
+#   - Targets only (exclude the seeds): change it to "hasForwardConnection".
+#   - Restrict targets to SCKAN neurons: add
+#       ?Neuron_Connected rdfs:subClassOf+ ?sckan_neuron .
+#     inside the subquery.
+#   - Different origin or circuit role: edit ?Origin_Structure in the VALUES
+#     clause or the 'Sensory phenotype' filter.
+#   - Debug a single neuron: add
+#       FILTER (CONTAINS(STR(?Neuron_Connected), '<id-fragment>'))
+#
+# NOTES
+#   - Target neurons without V1/V2 route data matching the VALUES lists will
+#     not appear unless those patterns are made OPTIONAL.
+#   - skos: is predefined in Stardog; if you get a prefix error, add
+#       prefix skos: <http://www.w3.org/2004/02/skos/core#>
+#   - LIMIT 5000 caps the result set; raise or remove it for full exports.
+# =============================================================================
+
+prefix ILX: <http://uri.interlex.org/base/ilx_>
+prefix ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix UBERON: <http://purl.obolibrary.org/obo/UBERON_>
+
+SELECT DISTINCT
+    # ?Seed_Neuron
+    ?Neuron_Connected
+    ?Neuron_Label
+    ?Target_Neuron
+    ?V1_ID ?V1 ?V1_Type
+    ?V2_ID ?V2 ?V2_Type
+    ?IsSynapse
+WHERE
+{
+   # For testing
+   ## Filter (Contains (STR(?Neuron_Connected), 'pain1')).
+
+    # 1) Select the seed (sensory DRG/TG) neurons and expand to seed + its forward targets
+    {
+        SELECT DISTINCT ?Seed_Neuron ?Neuron_Connected
+        WHERE 
+        {
+            VALUES ?sckan_neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
+            VALUES ?Origin_Structure { UBERON:0000044 UBERON:0001675 }   # DRG/TG
+
+            ?Seed_Neuron rdfs:subClassOf+ ?sckan_neuron .
+            ?Origin_IRI  rdfs:subClassOf* ?Origin_Structure .
+            ?Seed_Neuron ilxtr:hasSomaLocation ?Origin_IRI ;
+                         ilxtr:hasCircuitRole  ?Circuit_Role_IRI .
+            ?Circuit_Role_IRI rdfs:label ?Circuit_Role .
+            FILTER (?Circuit_Role = 'Sensory phenotype')
+
+            # "?" = zero or one hop: yields the seed itself AND its direct targets
+            # use "*" instead if you want the whole downstream chain
+            ?Seed_Neuron ilxtr:hasForwardConnection? ?Neuron_Connected .
+        }
+    }
+
+    # 2) Details, now evaluated for seeds AND targets
+    <<?V1_ID ilxtr:hasNextNode ?V2_ID>> ilxtr:isConnectedBy ?Neuron_Connected .
+
+    VALUES ?V1_Phenotype { ilxtr:hasSomaLocation ilxtr:hasAxonLocation ilxtr:hasAxonToSensoryTerminal }
+    VALUES ?V2_Phenotype { ilxtr:hasAxonLocation ilxtr:hasAxonSensoryLocation
+                           ilxtr:hasAxonTerminalLocation ilxtr:hasAxonToSensoryTerminal }
+
+    <<?Neuron_Connected ?V1_Phenotype ?V1_ID>> rdfs:label ?V1 .
+    <<?Neuron_Connected ?V2_Phenotype ?V2_ID>> rdfs:label ?V2 .
+    ?V1_Phenotype rdfs:label ?V1_Type .
+    ?V2_Phenotype rdfs:label ?V2_Type .
+
+    ?Neuron_Connected skos:prefLabel ?Neuron_Label .
+
+    OPTIONAL { ?Neuron_Connected ilxtr:hasForwardConnection ?Target_Neuron . }
+
+    OPTIONAL 
+    {
+        ?Neuron_Connected ilxtr:hasForwardConnection/ilxtr:hasSomaLocation ?Synapse .
+        FILTER (?V2_ID = ?Synapse && ?V2_Type = "hasAxonTerminalLocation")
+    }
+    BIND(IF(BOUND(?Synapse), "YES", "NO") AS ?IsSynapse)
+}
+ORDER BY ?Seed_Neuron ?Neuron_Connected
+LIMIT 5000

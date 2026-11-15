@@ -1,0 +1,59 @@
+prefix ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+prefix NCBIGene: <http://www.ncbi.nlm.nih.gov/gene/>
+prefix NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
+prefix neurdf.ent: <http://uri.interlex.org/tgbugs/uris/readable/neurdf/pred/ent/>
+prefix neurdf.eqv: <http://uri.interlex.org/tgbugs/uris/readable/neurdf/pred/eqv/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix UBERON: <http://purl.obolibrary.org/obo/UBERON_>
+
+CONSTRUCT
+{
+    ?Neuron_Connected ilxtr:isCompatibleWith ?Cell_Type .
+    << ?Neuron_Connected ilxtr:isCompatibleWith ?Cell_Type >>
+        ilxtr:hasSomaLocation     ?Origin_Structure ;
+        ilxtr:isObservedInSpecies ?Species_IRI ;
+        ilxtr:hasMarkerGene       ?Gene_IRI ;
+        ilxtr:hasCircuitRole      ?Circuit_Role_IRI ;
+        ilxtr:hasEndOrgan         ?End_Organ_IRI ;
+        ilxtr:literatureCitation  "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" .
+}
+        
+WHERE
+{
+    # ---- Parameters ---------------------------------------------------------
+    VALUES ?sckan_neuron     { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
+    VALUES ?Origin_Structure { UBERON:0000044 UBERON:0001675 }   # DRG/TG
+    VALUES ?Circuit_Role_IRI { ilxtr:SensoryPhenotype }
+    VALUES ?End_Organ        { "kidney" }                        # add more organs here
+
+    # Species and gene are paired (N'Guetta et al. 2014, kidney afferents)
+    VALUES (?Species_IRI ?Gene_IRI)
+    {
+        (NCBITaxon:9606  NCBIGene:63895)   # human: PIEZO2
+        (NCBITaxon:10090 NCBIGene:12310)   # mouse: Calca
+        (NCBITaxon:10090 NCBIGene:21333)   # mouse: Tac1
+    }
+
+    # ---- 1) The neuron ------------------------------------------------------
+    ?Neuron_Connected rdfs:subClassOf+ ?sckan_neuron .
+    ?Neuron_Connected ilxtr:hasCircuitRole      ?Circuit_Role_IRI ;
+                      ilxtr:isObservedInSpecies ?Species_IRI .
+
+    << ?Neuron_Connected ilxtr:hasSomaLocation ?Soma_ID >> ilxtr:hasRegion ?Origin_IRI .
+    ?Origin_IRI rdfs:subClassOf* ?Origin_Structure .
+
+    # ---- 2) Terminal in the end organ, directly or via forward connections --
+    ?Neuron_Connected ilxtr:hasForwardConnection* ?Terminal_Neuron .
+    << ?Terminal_Neuron ilxtr:hasAxonSensoryLocation ?Terminal_ID >> ilxtr:hasRegion ?Final_Terminal .
+
+    ?Final_Terminal (rdfs:subClassOf | ilxtr:isPartOf)* ?End_Organ_IRI .
+    ?End_Organ_IRI rdfs:label ?End_Organ .
+
+    # ---- 3) The cell type ---------------------------------------------------
+    ?Cell_Type rdfs:subClassOf+ ilxtr:NeuronPrecision ;
+               neurdf.eqv:hasSomaLocatedIn                  ?Origin_Structure ;
+               neurdf.eqv:hasAxonPhenotype                  ?Axon_Type_IRI ;
+               neurdf.ent:hasCircuitRolePhenotype           ?Circuit_Role_IRI ;
+               neurdf.ent:hasInstanceInTaxon                ?Species_IRI ;
+               neurdf.eqv:hasNucleicAcidExpressionPhenotype ?Gene_IRI .
+}

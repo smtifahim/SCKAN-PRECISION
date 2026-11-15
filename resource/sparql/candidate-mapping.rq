@@ -1,0 +1,93 @@
+# =============================================================================
+# QUERY:    Candidate cell types for SCKAN neurons
+# DATABASE: SCKAN (Stardog)
+# AUTHOR:   Fahim Imam
+# UPDATED:  November 12, 2026
+# =============================================================================
+# PURPOSE
+#   Lists every candidate cell type mapped to a neuron through
+#   ilxtr:hasCandidateCellType, with the annotations of that mapping.
+# =============================================================================
+# QUERY:    Candidate cell types for DRG/TG sensory neurons (SCKAN)
+#           read from stored RDF-star candidate mappings
+# DATABASE: SCKAN (Stardog)
+#
+# LOGIC
+#   1. Mapping: << ?Neuron_Connected ilxtr:hasCandidateCellType ?Cell_Type >>
+#      must be annotated with soma location, axon type and circuit role.
+#      The common-match test between neuron and cell type was already applied
+#      when the mappings were inserted.
+#   2. Species, function, threshold and circuit membership are optional
+#      annotations on the mapping.
+#   3. Cell type label, original label, neurotransmitter and gene come from
+#      the cell type itself and are not stored on the mapping.
+# =============================================================================
+
+prefix ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+prefix neurdf.eqv: <http://uri.interlex.org/tgbugs/uris/readable/neurdf/pred/eqv/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT
+    ?Neuron_Connected
+    ?Origin_IRI ?Origin
+    ?Circuit_Role_IRI ?Circuit_Role
+    ?Species_IRI ?Species
+    ?Axon_Type_IRI ?Axon_Type
+    ?Gene_Phenotype_IRI ?Gene_Phenotype
+    ?Cell_Type ?Cell_Type_Label ?Cell_Type_Orig_Label
+    ?Functional_Phenotype_IRI ?Functional_Phenotype
+    ?Threshold_Phenotype_IRI ?Threshold_Phenotype
+    ?Neurotransmitter_Phenotype_IRI ?Neurotransmitter_Phenotype
+    ?Neural_Circuit_IRI ?Neural_Circuit
+WHERE
+{
+    # ---- 1) Required mapping annotations ------------------------------------
+    << ?Neuron_Connected ilxtr:hasCandidateCellType ?Cell_Type >>
+        ilxtr:hasSomaLocation ?Origin_IRI ;
+        ilxtr:hasAxonType     ?Axon_Type_IRI ;
+        ilxtr:hasCircuitRole  ?Circuit_Role_IRI .
+
+    # ---- 2) Labels (required) -----------------------------------------------
+    ?Origin_IRI       rdfs:label ?Origin .
+    ?Axon_Type_IRI    rdfs:label ?Axon_Type .
+    ?Circuit_Role_IRI rdfs:label ?Circuit_Role .
+
+    ?Cell_Type rdfs:label           ?Cell_Type_Label ;
+               ilxtr:origLocalLabel ?Cell_Type_Orig_Label .
+
+    # ---- 3) Optional mapping annotations ------------------------------------
+    OPTIONAL
+    {
+        << ?Neuron_Connected ilxtr:hasCandidateCellType ?Cell_Type >> ilxtr:isObservedInSpecies ?Species_IRI .
+        ?Species_IRI rdfs:label ?Species .
+    }
+    OPTIONAL
+    {
+        << ?Neuron_Connected ilxtr:hasCandidateCellType ?Cell_Type >> ilxtr:hasFunction ?Functional_Phenotype_IRI .
+        ?Functional_Phenotype_IRI rdfs:label ?Functional_Phenotype .
+    }
+    OPTIONAL
+    {
+        << ?Neuron_Connected ilxtr:hasCandidateCellType ?Cell_Type >> ilxtr:hasThreshold ?Threshold_Phenotype_IRI .
+        ?Threshold_Phenotype_IRI rdfs:label ?Threshold_Phenotype .
+    }
+    OPTIONAL
+    {
+        << ?Neuron_Connected ilxtr:hasCandidateCellType ?Cell_Type >> ilxtr:hasCircuitMembership ?Neural_Circuit_IRI .
+        ?Neural_Circuit_IRI rdfs:label ?Neural_Circuit .
+    }
+
+    # ---- 4) Cell-type level properties (not stored on the mapping) ----------
+    OPTIONAL 
+    {
+        ?Cell_Type neurdf.eqv:hasNeurotransmitterPhenotype ?Neurotransmitter_Phenotype_IRI .
+        ?Neurotransmitter_Phenotype_IRI rdfs:label ?Neurotransmitter_Phenotype .
+    }
+    OPTIONAL
+    {
+        ?Cell_Type neurdf.eqv:hasNucleicAcidExpressionPhenotype ?Gene_Phenotype_IRI .
+        ?Gene_Phenotype_IRI rdfs:label ?Gene_Phenotype .
+    }
+}
+ORDER BY ?Neuron_Connected ?Cell_Type
+LIMIT 5000

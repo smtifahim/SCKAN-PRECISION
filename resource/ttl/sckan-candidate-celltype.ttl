@@ -1,0 +1,1732 @@
+@prefix ns1: <http://uri.interlex.org/tgbugs/uris/readable/neurdf/pred/eqv/> .
+@prefix ns2: <http://uri.interlex.org/tgbugs/uris/readable/neurdf/pred/ent/> .
+@prefix UBERON: <http://purl.obolibrary.org/obo/UBERON_> .
+@prefix ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/973> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/973> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/973> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/973> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0001675> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/973> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/973> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/973> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/973> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/973> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/973> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/973> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/973> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/973> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/973> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/973> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/973> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/987> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/987> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796512> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/988> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/988> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796512> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/989> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/989> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796512> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/990> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/990> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796512> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1000> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1000> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1000> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1000> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1000> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1000> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1000> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1000> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1000> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1000> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1000> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1000> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1000> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1000> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1070> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1070> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1070> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1070> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1070> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1070> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1070> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1070> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1070> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1070> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1070> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1070> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1070> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1070> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1001> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1001> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1001> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1001> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1001> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1001> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1001> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1001> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1001> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1001> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1001> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1001> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1001> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1001> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1002> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1002> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1002> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1002> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1002> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1002> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1002> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1002> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1002> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1002> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1002> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1002> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1002> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1002> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1003> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1003> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1003> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1003> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1003> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1003> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1003> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1003> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1003> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1003> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1003> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1003> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1003> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1003> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1004> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1004> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1004> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1004> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1004> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1004> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1004> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1004> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1004> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1004> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1004> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1004> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1004> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1004> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1005> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1005> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1005> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1005> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1005> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1005> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1005> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1005> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1005> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1005> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1005> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1005> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1005> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1005> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1006> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1006> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1006> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1006> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1006> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1006> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1006> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1006> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1006> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1006> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1006> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1006> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1006> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1006> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1007> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1007> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1007> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1007> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1007> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1007> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1007> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1007> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1007> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1007> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1007> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1007> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1007> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1007> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1008> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1008> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1008> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1008> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1008> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1008> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1008> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1008> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1008> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1008> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1008> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1008> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1008> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1008> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1010> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1010> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796512> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1011> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1011> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796512> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/1> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1012> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/1> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1012> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/12> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1012> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/12> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1012> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/3> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1012> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/3> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1012> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1012> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1012> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1012> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1012> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1012> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1012> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1013> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1013> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796512> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/3> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1015> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/3> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1015> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1015> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1015> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/1> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1015> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/1> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1015> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/12> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1015> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/12> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1015> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1015> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1015> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1015> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1015> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1020> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1020> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1020> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1020> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1020> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1020> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1020> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1020> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1020> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1020> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1020> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1020> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1020> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1020> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1021> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1021> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1021> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1021> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1021> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1021> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1021> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1021> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1021> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1021> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1021> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1021> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1021> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1021> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1022> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1022> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1022> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1022> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1022> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1022> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1022> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1022> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1022> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1022> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1022> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1022> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1022> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1022> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1023> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1023> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> , <http://uri.interlex.org/base/ilx_0796535> .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1023> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1023> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1023> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1023> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1023> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1023> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> , <http://uri.interlex.org/base/ilx_0796535> .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1023> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1023> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1023> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1023> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1023> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1023> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1024> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1024> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> , <http://uri.interlex.org/base/ilx_0796535> .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1024> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1024> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1024> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1024> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1024> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1024> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1024> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1024> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1024> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1024> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> , <http://uri.interlex.org/base/ilx_0796535> .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1024> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1024> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1025> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1025> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1025> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1025> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1025> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1025> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1025> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1025> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1025> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1025> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1025> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1025> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1025> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1025> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1026> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1026> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1026> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1026> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1026> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1026> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1026> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1026> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1026> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1026> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1026> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1026> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1026> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1026> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1027> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1027> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1027> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1027> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1027> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1027> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1027> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1027> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1027> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1027> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1027> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1027> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1027> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1027> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:hasCircuitMembership <http://uri.interlex.org/base/ilx_0796530> .
+<http://uri.interlex.org/composer/uris/set/pain1/1> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1033> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/1> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1033> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1033> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1033> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/12> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1033> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/12> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1033> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/3> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1033> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/3> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1033> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1033> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1033> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1033> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1033> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1034> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1034> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796512> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1037> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1037> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1037> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1037> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1037> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1037> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1037> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1037> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1037> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1037> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1037> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1037> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1037> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1037> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1038> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1038> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1038> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1038> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1038> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1038> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1038> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1038> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1038> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1038> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1038> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1038> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1038> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1038> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1040> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1040> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1040> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1040> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1040> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1040> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1040> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1040> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1040> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1040> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1040> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1040> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1040> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1040> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1041> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1041> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1041> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1041> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1041> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1041> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1041> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1041> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1041> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1041> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1041> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1041> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1041> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1041> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1042> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1042> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1042> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1042> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1042> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1042> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1042> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1042> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1042> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1042> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1042> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1042> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1042> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1042> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1043> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1043> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1043> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1043> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1043> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1043> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1043> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1043> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1043> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1043> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1043> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1043> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1043> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1043> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1044> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1044> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1044> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1044> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1044> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1044> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1044> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1044> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1044> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1044> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1044> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1044> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1044> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1044> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1045> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1045> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1045> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1045> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1045> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1045> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1045> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1045> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1045> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1045> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1045> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1045> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1045> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1045> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1050> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1050> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1050> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1050> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1050> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1050> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1050> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1050> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1050> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1050> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1050> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1050> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1050> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1050> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1051> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1051> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1051> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1051> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1051> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1051> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1051> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1051> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1051> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1051> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1051> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1051> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1051> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1051> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1052> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1052> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1052> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1052> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1052> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1052> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1052> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1052> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1052> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1052> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1052> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1052> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1052> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1052> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1053> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1053> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1053> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1053> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1053> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1053> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1053> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1053> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1053> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1053> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1053> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1053> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1053> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1053> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1054> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1054> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1054> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1054> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1054> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1054> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1054> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1054> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1054> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1054> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1054> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1054> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1054> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1054> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1055> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1055> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/1> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1055> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/1> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1055> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1055> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1055> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1055> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1055> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/3> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1055> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/3> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1055> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/12> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1055> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/12> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1055> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1056> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1056> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796512> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1057> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1057> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796512> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1059> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1059> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796512> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1060> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1060> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasFunction <http://uri.interlex.org/base/ilx_0797460> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796512> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/1> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1061> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/1> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1061> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1061> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1061> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/12> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1061> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/12> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1061> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1061> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1061> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1061> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1061> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/3> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1061> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/3> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1061> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1062> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1062> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasThreshold <http://uri.interlex.org/base/ilx_0796525> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1062> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1062> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1062> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1062> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1062> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1062> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1062> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1062> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1062> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1062> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1062> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1062> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1063> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1063> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1063> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1063> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1063> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1063> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1063> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1063> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1063> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1063> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1063> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1063> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1063> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1063> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1064> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1064> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1064> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1064> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1064> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1064> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1064> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1064> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1064> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1064> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1064> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1064> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1064> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1064> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/3> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1065> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/3> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1065> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/1> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1065> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/1> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1065> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1065> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1065> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1065> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1065> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/12> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1065> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/12> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1065> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1065> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1065> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1067> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1067> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1067> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1067> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1067> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1067> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1067> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1067> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1067> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1067> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1067> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1067> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1067> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1067> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1068> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1068> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1068> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1068> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1068> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1068> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1068> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1068> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1068> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1068> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1068> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1068> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1068> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1068> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1069> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1069> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/12> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1069> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/12> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1069> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1069> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/7> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1069> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1069> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1069> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/3> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1069> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/3> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1069> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/1> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1069> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/1> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1069> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796514> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1071> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1071> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1071> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1071> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1071> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1071> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1071> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1071> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1071> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1071> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1071> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1071> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1071> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1071> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1073> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1073> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1073> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1073> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1073> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1073> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1073> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1073> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1073> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1073> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1073> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1073> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1073> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1073> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1074> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/9> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1074> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1074> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/4> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1074> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1074> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/2> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1074> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1074> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/5> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1074> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1074> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1074> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1074> .
+<< <http://uri.interlex.org/composer/uris/set/pain2/8> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1074> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .
+<http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1074> .
+<< <http://uri.interlex.org/composer/uris/set/pain1/6> ilxtr:hasCandidateCellType <http://uri.interlex.org/npo/uris/neurons/1074> >> ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasAxonType <http://uri.interlex.org/base/ilx_0796516> ;
+   ilxtr:hasCircuitRole ilxtr:SensoryPhenotype .

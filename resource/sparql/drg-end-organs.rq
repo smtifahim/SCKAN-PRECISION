@@ -1,0 +1,105 @@
+# =============================================================================
+# QUERY:    DRG/TG sensory neurons and downstream neurons, by terminal organ
+# DATABASE: SCKAN (Stardog)
+# AUTHOR:   Fahim Imam
+# UPDATED:  November 13, 2026
+# =============================================================================
+#
+# PURPOSE
+#   Returns every DRG/TG sensory neuron (the seeds) plus all neurons reachable
+#   through ilxtr:hasForwardConnection, all as ?Neuron_Connected. For each,
+#   lists its hasAxonSensoryLocation / hasAxonTerminalLocation values, resolved
+#   to a region (ilxtr:hasRegion) and grouped by target organ.
+#
+# LOGIC
+#   1. Seeds: SCKAN neurons with soma in DRG (UBERON:0000044) or TG
+#      (UBERON:0001675) and circuit role 'Sensory phenotype'.
+#   2. hasForwardConnection* adds the seeds themselves and every downstream
+#      neuron. Seed filters are not applied to downstream neurons.
+#   3. Terminal locations are required; neurons without one are not listed.
+#   4. Organ grouping is OPTIONAL: the region is walked up through
+#      rdfs:subClassOf / ilxtr:isPartOf to a label in the ?Target_Organ list.
+#      Unmatched rows get ?Organ_Group = "Other (not in list)".
+#
+# OUTPUT COLUMNS
+#   ?Seed_Neuron, ?Neuron_Connected, ?Neuron_Label, ?Location_Type,
+#   ?Terminal_ID, ?Terminal_Label, ?Final_Terminal, ?Final_Terminal_Label,
+#   ?Organ_Group
+#
+# TIPS
+#   - Edit VALUES ?Target_Organ to change organs (exact rdfs:label match).
+#   - To find organs missing from the list, filter on "Other (not in list)"
+#     and GROUP BY ?Final_Terminal_Label with COUNT(DISTINCT ?Neuron_Connected).
+#   - Use hasForwardConnection? for seeds plus direct targets only (faster).
+#   - A terminal can match several organs, so a neuron may span several rows.
+# =============================================================================
+
+prefix ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix UBERON: <http://purl.obolibrary.org/obo/UBERON_>
+
+SELECT DISTINCT
+   # ?Seed_Neuron
+    ?Neuron_Connected
+    ?Neuron_Label
+    ?Location_Type
+    # ?Terminal_ID
+    # ?Terminal_Label
+    ?Final_Terminal
+    ?Final_Terminal_Label
+    ?End_Organ_IRI
+    ?End_Organ
+WHERE
+{
+    # 1) Seed sensory neurons (DRG/TG) + all forward-connected neurons
+    {
+        SELECT DISTINCT ?Seed_Neuron ?Neuron_Connected
+        WHERE {
+            VALUES ?sckan_neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
+            VALUES ?Origin_Structure { UBERON:0000044 UBERON:0001675}   # DRG/TG
+
+            ?Seed_Neuron rdfs:subClassOf+ ?sckan_neuron .
+            ?Origin_IRI  rdfs:subClassOf* ?Origin_Structure .
+            ?Seed_Neuron ilxtr:hasSomaLocation ?Origin_IRI ;
+                         ilxtr:hasCircuitRole  ?Circuit_Role_IRI .
+            ?Circuit_Role_IRI rdfs:label ?Circuit_Role .
+            FILTER (?Circuit_Role = 'Sensory phenotype')
+
+            ?Seed_Neuron ilxtr:hasForwardConnection* ?Neuron_Connected .
+        }
+    }
+
+    ?Neuron_Connected skos:prefLabel ?Neuron_Label .
+
+    # 2) Sensory-terminal and terminal locations, resolved to their region (required)
+    VALUES ?Location_Phenotype { ilxtr:hasAxonSensoryLocation } # ilxtr:hasAxonTerminalLocation }
+
+    << ?Neuron_Connected ?Location_Phenotype ?Terminal_ID >> ilxtr:hasRegion ?Final_Terminal .
+    ?Location_Phenotype rdfs:label ?Location_Type .
+    OPTIONAL { ?Final_Terminal rdfs:label ?Final_Terminal_Label . }
+
+    # 3) Organ grouping (OPTIONAL: labels the row, never removes it)
+    OPTIONAL {
+        VALUES ?Target_Organ
+        {
+            "heart" "ovary" "esophagus" "kidney" "lung" "liver"
+            "colon" "descending colon" "stomach" "urinary bladder" "penis" "skin of body"
+            "male reproductive system" "female reproductive system" "clitoris" "vagina"
+            "seminal vesicle" "uterus" "sweat gland" "scapular muscle" "sphincter muscle"
+            "flexor muscle" "muscle of shoulder" "head" "face" "membrane organ" "muscle organ"
+            "anal region" "renal system" "manus" "buttock" "mouth" "abdomen" "digestive system"
+            "trunk" "blood vessel" "pes" "bone element" "shoulder"
+        }
+        ?Final_Terminal (rdfs:subClassOf | ilxtr:isPartOf)* ?End_Organ_IRI.
+        ?End_Organ_IRI rdfs:label ?Target_Organ .
+    }
+    BIND(COALESCE(?Target_Organ, "Other (not in list)") AS ?End_Organ)
+
+    # 4) Terminal label
+    OPTIONAL { << ?Neuron_Connected ?Location_Phenotype ?Terminal_ID >> rdfs:label ?Annotated_Label . }
+    OPTIONAL { ?Terminal_ID rdfs:label ?Term_Label . }
+    BIND(COALESCE(?Annotated_Label, ?Term_Label) AS ?Terminal_Label)
+}
+ORDER BY ?End_Organ ?Neuron_Connected ?Location_Type
+LIMIT 5000

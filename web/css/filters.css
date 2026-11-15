@@ -1,0 +1,261 @@
+/* Filter bar layout, autocomplete widget, and the fiber-type tree dropdown. */
+
+.filter-panel {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: flex-end;
+  padding: 14px;
+}
+
+/* View (Diagram/Table) toggle, centered along the bottom edge of the
+   filter panel card, below the filter fields. */
+.view-toggle-row {
+  display: flex;
+  justify-content: center;
+  padding: 0 14px 12px;
+}
+
+.filter-field {
+  min-width: 180px;
+  flex: 1 1 180px;
+}
+
+/* ---- Autocomplete (End Organ / Species / Gene / Circuit Role) ---- */
+
+.ac-field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ac-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+.ac-input-wrap {
+  position: relative;
+  display: flex;
+}
+
+.ac-input {
+  width: 100%;
+  padding: 8px 28px 8px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+.ac-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.ac-field.has-value .ac-input {
+  border-color: var(--color-primary);
+}
+
+.ac-clear {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  color: var(--color-text-muted);
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 6px;
+}
+
+.ac-clear:hover {
+  color: var(--color-text);
+}
+
+.ac-suggestions {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  max-height: 260px;
+  overflow-y: auto;
+  margin: 0;
+  padding: 4px 0;
+  list-style: none;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+}
+
+.ac-option {
+  padding: 7px 10px;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.ac-option:hover,
+.ac-option.is-active {
+  background: #eef2ff;
+  color: var(--color-primary-dark);
+}
+
+.ac-subtitle {
+  font-size: 11px;
+  color: var(--color-text-muted);
+}
+
+.ac-field.is-disabled .ac-input {
+  background: var(--color-bg);
+  color: var(--color-text-muted);
+  cursor: not-allowed;
+}
+
+/* ---- Fiber-type hierarchical selector ---- */
+
+.ft-field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ft-trigger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  font-size: 13px;
+  cursor: pointer;
+  color: var(--color-text);
+}
+
+.ft-field.has-value .ft-trigger {
+  border-color: var(--color-primary);
+  color: var(--color-primary-dark);
+}
+
+.ft-trigger-arrow {
+  color: var(--color-text-muted);
+  font-size: 11px;
+}
+
+.ft-panel {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 4px);
+  left: 0;
+  width: 300px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+  padding: 8px;
+}
+
+.ft-search {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-size: 12.5px;
+  margin-bottom: 6px;
+}
+
+.ft-tree-scroll {
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+.ft-tree, .ft-children {
+  list-style: none;
+  margin: 0;
+  padding-left: 14px;
+}
+
+.ft-tree {
+  padding-left: 0;
+}
+
+.ft-children {
+  display: none;
+}
+
+.ft-node.is-expanded > .ft-children {
+  display: block;
+}
+
+.ft-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 4px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 12.5px;
+}
+
+.ft-row:hover {
+  background: #eef2ff;
+}
+
+.ft-toggle {
+  width: 12px;
+  display: inline-block;
+  color: var(--color-text-muted);
+  font-size: 10px;
+  transition: transform 0.1s ease;
+}
+
+.ft-node.is-expanded > .ft-row > .ft-toggle {
+  transform: rotate(90deg);
+}
+
+.ft-node.is-unavailable > .ft-row {
+  color: var(--color-text-muted);
+  opacity: 0.55;
+}
+
+.ft-node.is-selected > .ft-row {
+  background: #e0e9ff;
+  color: var(--color-primary-dark);
+  font-weight: 600;
+}
+
+.ft-clear {
+  margin-top: 6px;
+  width: 100%;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  border-radius: var(--radius-sm);
+  padding: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--color-text-muted);
+}
+
+.ft-clear:hover {
+  color: var(--color-text);
+}

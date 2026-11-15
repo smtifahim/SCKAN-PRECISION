@@ -1,0 +1,211 @@
+@prefix NCBIGene: <http://www.ncbi.nlm.nih.gov/gene/> .
+@prefix ns1: <http://uri.interlex.org/tgbugs/uris/readable/neurdf/pred/eqv/> .
+@prefix ns2: <http://uri.interlex.org/tgbugs/uris/readable/neurdf/pred/ent/> .
+@prefix UBERON: <http://purl.obolibrary.org/obo/UBERON_> .
+@prefix ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_> .
+
+<http://uri.interlex.org/composer/uris/set/kidney/158> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1022> .
+<< <http://uri.interlex.org/composer/uris/set/kidney/158> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1022> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/composer/uris/set/kidney/158> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1026> .
+<< <http://uri.interlex.org/composer/uris/set/kidney/158> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1026> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/composer/uris/set/kidney/158> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1029> .
+<< <http://uri.interlex.org/composer/uris/set/kidney/158> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1029> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/composer/uris/set/kidney/158> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1022> .
+<< <http://uri.interlex.org/composer/uris/set/kidney/158> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1022> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/composer/uris/set/kidney/158> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1026> .
+<< <http://uri.interlex.org/composer/uris/set/kidney/158> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1026> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/composer/uris/set/kidney/158> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1029> .
+<< <http://uri.interlex.org/composer/uris/set/kidney/158> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1029> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/composer/uris/set/kidney/158> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1026> .
+<< <http://uri.interlex.org/composer/uris/set/kidney/158> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1026> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/composer/uris/set/kidney/159> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1022> .
+<< <http://uri.interlex.org/composer/uris/set/kidney/159> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1022> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/composer/uris/set/kidney/159> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1026> .
+<< <http://uri.interlex.org/composer/uris/set/kidney/159> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1026> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/composer/uris/set/kidney/159> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1029> .
+<< <http://uri.interlex.org/composer/uris/set/kidney/159> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1029> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/composer/uris/set/kidney/159> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1026> .
+<< <http://uri.interlex.org/composer/uris/set/kidney/159> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1026> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/composer/uris/set/kidney/159> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1029> .
+<< <http://uri.interlex.org/composer/uris/set/kidney/159> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1029> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/composer/uris/set/kidney/159> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1022> .
+<< <http://uri.interlex.org/composer/uris/set/kidney/159> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1022> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/composer/uris/set/kidney/159> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1026> .
+<< <http://uri.interlex.org/composer/uris/set/kidney/159> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1026> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/composer/uris/set/kidney/159> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1029> .
+<< <http://uri.interlex.org/composer/uris/set/kidney/159> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1029> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/139> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1026> .
+<< <http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/139> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1026> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/139> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1022> .
+<< <http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/139> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1022> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/139> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1026> .
+<< <http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/139> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1026> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/139> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1029> .
+<< <http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/139> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1029> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/139> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1022> .
+<< <http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/139> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1022> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/139> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1026> .
+<< <http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/139> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1026> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/139> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1029> .
+<< <http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/139> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1029> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:63895 .
+<http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/144> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1063> .
+<< <http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/144> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1063> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:12310 .
+<http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/144> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1065> .
+<< <http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/144> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1065> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:12310 .
+<http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/144> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1069> .
+<< <http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/144> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1069> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:12310 .
+<http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/144> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1065> .
+<< <http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/144> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1065> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:12310 .
+<http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/144> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1063> .
+<< <http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/144> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1063> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:12310 .
+<http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/144> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1065> .
+<< <http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/144> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1065> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:12310 .
+<http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/144> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1069> .
+<< <http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/144> ilxtr:isCompatibleWith <http://uri.interlex.org/npo/uris/neurons/1069> >> ilxtr:hasCircuitRole ilxtr:SensoryPhenotype ;
+   ilxtr:literatureCitation "N'Guetta et al. (2024). https://doi.org/10.1016/j.celrep.2024.114860" ;
+   ilxtr:isObservedInSpecies <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+   ilxtr:hasEndOrgan <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+   ilxtr:hasSomaLocation <http://purl.obolibrary.org/obo/UBERON_0000044> ;
+   ilxtr:hasMarkerGene NCBIGene:12310 .
