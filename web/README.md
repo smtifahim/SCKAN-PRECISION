@@ -7,9 +7,13 @@ DRG/TG cell types, using the JSON exports in [`resource/json/`](../resource/json
 
 ## Running it
 
-The app loads its data with `fetch()`, so it must be served over HTTP (not
-opened directly as a `file://` URL), **from the repository root**, so that
-both `web/` and `resource/` are reachable:
+**Hosted:** <https://smtifahim.github.io/SCKAN-PRECISION/> (GitHub Pages, served
+from the repository root of the `main` branch; the root `index.html` forwards
+to `web/index.html`).
+
+**Locally:** the app loads its data with `fetch()`, so it must be served over
+HTTP (not opened directly as a `file://` URL), **from the repository root**, so
+that both `web/` and `resource/` are reachable:
 
 ```bash
 # from the repository root
