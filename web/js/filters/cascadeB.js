@@ -10,7 +10,7 @@
 // Neural Circuit) *are* offered as filters, since they do vary.
 
 import { distinctByIri } from '../data/util.js';
-import { rankCandidatesByScore } from '../data/candidateMatchScore.js';
+import { rankCandidatesByScore, phenotypeFlags } from '../data/candidateMatchScore.js';
 
 /**
  * @typedef {Object} ViewBFilterState
@@ -142,7 +142,12 @@ export function computePopulationList(model, state, facetState) {
       ...entry,
       hasAnyCandidates,
       matchedCandidateCount: rankedCandidates.length,
-      matchedCandidates: rankedCandidates.map((r) => ({ iri: r.Cell_Type, label: r.Cell_Type_Label, score: r.matchScore })),
+      matchedCandidates: rankedCandidates.map((r) => ({
+        iri: r.Cell_Type,
+        label: r.Cell_Type_Label,
+        score: r.matchScore,
+        flags: phenotypeFlags(r),
+      })),
     });
   }
   // Populations with candidate matches sort first (alphabetically among

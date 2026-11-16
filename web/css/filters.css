@@ -233,11 +233,6 @@
   transform: rotate(90deg);
 }
 
-.ft-node.is-unavailable > .ft-row {
-  color: var(--color-text-muted);
-  opacity: 0.55;
-}
-
 .ft-node.is-selected > .ft-row {
   background: #e0e9ff;
   color: var(--color-primary-dark);

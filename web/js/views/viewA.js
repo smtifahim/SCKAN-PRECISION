@@ -227,6 +227,7 @@ export async function initViewA(root) {
   }
 
   let userResizedPopulationPanel = false;
+  let selectFirstCandidate = false; // set when the "N candidates" pill was clicked
   els.populationResizeHandle.addEventListener('pointerdown', () => {
     userResizedPopulationPanel = true;
   });
@@ -309,6 +310,7 @@ export async function initViewA(root) {
     if (!row) return;
     selectedNeuronIri = decodeURIComponent(row.dataset.iri);
     selectedCandidateRow = null;
+    selectFirstCandidate = Boolean(event.target.closest('.population-badge-match'));
     [...els.populationCaptionTable.querySelectorAll('.population-row')].forEach((r) =>
       r.classList.toggle('is-active', r === row)
     );
@@ -360,6 +362,10 @@ export async function initViewA(root) {
     // the current merged values); otherwise fall back to the empty state.
     if (selectedCandidateRow) {
       selectedCandidateRow = candidateRows.find((r) => r.Cell_Type === selectedCandidateRow.Cell_Type) ?? null;
+    }
+    if (selectFirstCandidate) {
+      selectedCandidateRow = candidateRows[0] ?? null;
+      selectFirstCandidate = false;
     }
 
     function showEdgeLegend(row) {

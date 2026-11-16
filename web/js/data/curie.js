@@ -23,14 +23,6 @@ const SCKAN_POPULATION_PATTERNS = [
 
 const PRECISION_CELL_TYPE_PATTERN = /\/npo\/uris\/neurons\/([^/]+)$/;
 
-// A handful of composer-drafted populations need a distinguishing curie
-// prefix on SCKAN Explorer's side (their plain "kidney:" numeric id would
-// otherwise collide with an unrelated, already-published population).
-const CURIE_OVERRIDES = {
-  'http://uri.interlex.org/composer/uris/set/kidney/158': 'kidney1:158',
-  'http://uri.interlex.org/composer/uris/set/kidney/159': 'kidney1:159',
-};
-
 export const NODE_KIND = {
   SCKAN_POPULATION: 'sckan-population',
   PRECISION_CELL_TYPE: 'precision-cell-type',
@@ -51,7 +43,7 @@ export function resolveNodeLink(iri) {
   for (const pattern of SCKAN_POPULATION_PATTERNS) {
     const match = iri.match(pattern);
     if (match) {
-      const curie = CURIE_OVERRIDES[iri] ?? `${match[1]}:${match[2]}`;
+      const curie = `${match[1]}:${match[2]}`;
       return { kind: NODE_KIND.SCKAN_POPULATION, curie, url: `${SCKAN_EXPLORER_BASE}${curie}` };
     }
   }

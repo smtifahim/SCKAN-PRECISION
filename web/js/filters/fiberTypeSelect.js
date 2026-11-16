@@ -1,15 +1,19 @@
 // Hierarchical fiber/axon-type selector driven by
 // resource/json/fiber-type-hierarchy.json. Selecting any node (parent or
 // leaf) matches that node's IRI plus every descendant IRI (the closure is
-// computed once in data/fiberHierarchy.js). Nodes whose closure has zero
-// overlap with the current cascade-available IRIs are dimmed, not hidden -
-// they stay pickable so the tree remains fully navigable.
+// computed once in data/fiberHierarchy.js). The single top-level "nerve
+// fiber" root is not shown (its children are the top level), nodes whose
+// closure has zero overlap with the current cascade-available IRIs are
+// hidden (the selected node always stays), and opening the dropdown expands
+// the whole tree.
 
 export function createFiberTypeSelect({ container, label, fiberHierarchy, onChange }) {
   let currentIri = null;
   let availableIris = null; // null = no restriction yet
   let filterText = '';
   let isOpen = false;
+  const collapsed = new Set(); // IRIs the user collapsed since the dropdown was opened
+  const topNodes = fiberHierarchy.roots.length === 1 ? fiberHierarchy.roots[0].children : fiberHierarchy.roots;
 
   container.classList.add('ft-field');
   container.innerHTML = `
@@ -48,14 +52,14 @@ export function createFiberTypeSelect({ container, label, fiberHierarchy, onChan
   }
 
   function renderNode(node) {
-    const visible = nodeMatchesFilter(node);
-    if (!visible) return '';
-    const dim = nodeHasOverlap(node) ? '' : ' is-unavailable';
+    if (!nodeMatchesFilter(node)) return '';
+    if (node.iri !== currentIri && !nodeHasOverlap(node)) return '';
     const selected = node.iri === currentIri ? ' is-selected' : '';
     const childrenHtml = node.children.map(renderNode).join('');
-    const hasChildren = node.children.length > 0;
+    const hasChildren = childrenHtml !== '';
+    const expanded = hasChildren && !collapsed.has(node.iri) ? ' is-expanded' : '';
     return `
-      <li class="ft-node${dim}${selected}" data-iri="${encodeURIComponent(node.iri)}">
+      <li class="ft-node${selected}${expanded}" data-iri="${encodeURIComponent(node.iri)}">
         <div class="ft-row">
           ${hasChildren ? '<span class="ft-toggle">▸</span>' : '<span class="ft-toggle ft-toggle-leaf"></span>'}
           <span class="ft-node-label">${node.label}</span>
@@ -66,17 +70,17 @@ export function createFiberTypeSelect({ container, label, fiberHierarchy, onChan
   }
 
   function render() {
-    treeEl.innerHTML = fiberHierarchy.roots.map(renderNode).join('');
-    // Auto-expand every branch while the user is actively filtering.
-    if (filterText) {
-      treeEl.querySelectorAll('.ft-node').forEach((li) => li.classList.add('is-expanded'));
-    }
+    treeEl.innerHTML = topNodes.map(renderNode).join('');
   }
 
   triggerEl.addEventListener('click', () => {
     isOpen = !isOpen;
     panelEl.hidden = !isOpen;
-    if (isOpen) searchEl.focus();
+    if (isOpen) {
+      collapsed.clear();
+      render();
+      searchEl.focus();
+    }
   });
 
   document.addEventListener('click', (event) => {
@@ -98,6 +102,8 @@ export function createFiberTypeSelect({ container, label, fiberHierarchy, onChan
     if (!li) return;
 
     if (toggle) {
+      const iri = decodeURIComponent(li.dataset.iri);
+      if (collapsed.delete(iri) === false) collapsed.add(iri);
       li.classList.toggle('is-expanded');
       return;
     }

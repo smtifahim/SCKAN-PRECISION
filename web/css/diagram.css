@@ -25,6 +25,7 @@
    viewport (see js/diagram/zoomPan.js). */
 .diagram-viewport {
   overflow: hidden;
+  cursor: grab;
 }
 
 .diagram-viewport.is-zoomed {
@@ -41,17 +42,15 @@
   will-change: transform;
 }
 
-/* Toolbar floating over the diagram's top-right corner: the pathway
-   direction toggle, then (to its right) the zoom controls, which
-   js/diagram/zoomPan.js renders into .diagram-zoom-slot. */
+/* Toolbar above the diagram, right-aligned (in the page flow, so it never
+   covers the diagram): the pathway direction toggle, then (to its right) the
+   zoom controls, which js/diagram/zoomPan.js renders into .diagram-zoom-slot. */
 .diagram-toolbar {
-  position: absolute;
-  top: 10px;
-  right: 14px;
-  z-index: 2;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: 8px;
+  margin-bottom: 8px;
 }
 
 .diagram-toolbar .btn {
@@ -131,10 +130,24 @@
   margin-top: 6px;
 }
 
+/* Small caveat line under a diagram caption (View C); hidden while empty. */
+.diagram-note {
+  max-width: 640px;
+  margin: 6px auto 2px;
+  font-size: 11.5px;
+  line-height: 1.45;
+  font-style: italic;
+  text-align: center;
+  color: var(--color-text-muted);
+}
+
+.diagram-note:empty {
+  display: none;
+}
+
 .partial-order-svg {
   width: 100%;
   height: auto;
-  max-height: 65vh;
 }
 
 .partial-order-svg .candidate-edge {
@@ -158,6 +171,101 @@
 
 .partial-order-svg .candidate-node:hover text {
   filter: brightness(0.8);
+}
+
+/* View (C): the diagram node whose details are open in the right panel. */
+.partial-order-svg g.node.is-selected {
+  filter: drop-shadow(0 0 3px #111) drop-shadow(0 0 1px #111);
+}
+
+/* ---- View (C) selection-details panel ---- */
+.detail-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.detail-summary {
+  margin: 6px 0 10px;
+  padding: 6px 8px;
+  background: var(--color-bg);
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+}
+
+.detail-counts {
+  font-weight: 600;
+}
+
+.detail-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  margin-top: 3px;
+}
+
+.detail-meta {
+  color: var(--color-text-muted);
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.detail-dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: baseline;
+}
+
+.detail-list {
+  margin: 0 0 8px;
+  padding-left: 14px;
+  font-size: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.detail-list li {
+  margin: 3px 0;
+}
+
+.detail-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.detail-chip {
+  border: none;
+  border-radius: 999px;
+  padding: 2px 9px;
+  background: var(--chip, #64748b);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.detail-chip:hover {
+  filter: brightness(0.88);
+}
+
+.detail-link {
+  border: none;
+  background: none;
+  padding: 0;
+  color: var(--color-primary);
+  font-size: 12px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.detail-link:hover {
+  text-decoration: underline;
 }
 
 .partial-order-svg .node a:hover ellipse,
@@ -258,6 +366,7 @@
 .population-badge-match {
   background: #fff3cd;
   color: #8a6400;
+  cursor: pointer;
 }
 
 .population-badge-none {
@@ -265,9 +374,8 @@
   color: var(--color-text-muted);
 }
 
-/* Candidate cell types: the count pill sits on the first row together with
-   up to 2 cell-type links; every row after that holds at most 2 more, each
-   linked to NervoSensus. */
+/* Candidate cell types: the count pill sits on its own row; every row after
+   that holds at most 2 cell-type links, each linked to NervoSensus. */
 .population-candidates {
   display: flex;
   flex-direction: column;
@@ -317,12 +425,27 @@
   text-decoration: none;
 }
 
-/* Phenotype-overlap score shown next to each candidate chip (View B only). */
-.candidate-chip-score {
-  margin-left: 2px;
-  color: var(--color-text-muted);
-  font-size: 10px;
-  font-weight: 600;
+/* Phenotype dots next to each candidate chip (View B): one dot per optional
+   phenotype, filled when annotated; hover for names, click to open details. */
+.phenotype-dots {
+  display: inline-flex;
+  gap: 3px;
+  margin-left: 4px;
+  padding: 3px 2px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.phenotype-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1px solid #2f6b3a;
+  box-sizing: border-box;
+}
+
+.phenotype-dot.is-on {
+  background: #2f6b3a;
 }
 
 .population-empty {
@@ -353,8 +476,8 @@
   margin: 0 4px;
 }
 
-/* Match-strength badge (View B): how many of the 6 optional phenotype
-   fields a candidate row actually shares with the SCKAN population. */
+/* Match-strength badge (View B): how many of the 6 optional phenotypes are
+   annotated on a candidate cell type. */
 .legend-match-score {
   display: inline-block;
   margin-left: 6px;
@@ -365,6 +488,24 @@
   font-size: 10.5px;
   font-weight: 600;
   white-space: nowrap;
+}
+
+.legend-common-title {
+  margin: 4px 0 2px;
+}
+
+.legend-evidence-table .phenotype-off th,
+.legend-evidence-table .phenotype-off td {
+  color: #9aa1ad;
+  font-weight: 400;
+}
+
+.legend-evidence-table .phenotype-on .phenotype-mark {
+  color: #2f6b3a;
+}
+
+.legend-evidence-table .phenotype-off .phenotype-mark {
+  color: #b8bec8;
 }
 
 .legend-hint {
@@ -393,6 +534,27 @@
 
 .legend-evidence-table td {
   padding: 3px 0;
+}
+
+.legend-match-meta {
+  margin: 4px 0;
+  font-size: 12px;
+}
+
+.legend-match-meta strong {
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.legend-meta-sep {
+  color: var(--color-text-muted);
+  margin: 0 4px;
+}
+
+.legend-common-table {
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--color-border, #e2e2e2);
 }
 
 .legend-suggested-list {

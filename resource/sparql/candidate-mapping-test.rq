@@ -10,7 +10,9 @@
 #   3. Species: if the neuron has one, the cell type must match it;
 #      otherwise the cell type's species is reported.
 #   4. Function, threshold, circuit membership, neurotransmitter and gene
-#      are optional extras that never remove rows.
+#      are optional extras that never remove rows. The neuron's own
+#      neurotransmitter (ilxtr:hasNeurotransmitter) is returned separately
+#      from the cell type's (hasNeurotransmitterPhenotype).
 # =============================================================================
 
 prefix ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
@@ -29,6 +31,7 @@ SELECT DISTINCT
     ?Functional_Phenotype_IRI ?Functional_Phenotype
     ?Threshold_Phenotype_IRI ?Threshold_Phenotype
     ?Neurotransmitter_Phenotype_IRI ?Neurotransmitter_Phenotype
+    ?Neuron_Neurotransmitter_IRI ?Neuron_Neurotransmitter
     ?Neural_Circuit_IRI ?Neural_Circuit
 WHERE
 {
@@ -82,6 +85,12 @@ WHERE
         # Cell-type level only (the neuron is not checked)
         ?Cell_Type neurdf.eqv:hasNeurotransmitterPhenotype ?Neurotransmitter_Phenotype_IRI .
         ?Neurotransmitter_Phenotype_IRI rdfs:label ?Neurotransmitter_Phenotype .
+    }
+    OPTIONAL {
+        # Neuron level: the SCKAN population's own neurotransmitter
+        # (e.g. pain2:8 ilxtr:hasNeurotransmitter CHEBI:16670)
+        ?Neuron_Connected ilxtr:hasNeurotransmitter ?Neuron_Neurotransmitter_IRI .
+        OPTIONAL { ?Neuron_Neurotransmitter_IRI rdfs:label ?Neuron_Neurotransmitter . }
     }
     OPTIONAL {
         # Cell-type level only (the neuron is not checked)

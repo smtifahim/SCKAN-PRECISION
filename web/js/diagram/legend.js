@@ -22,29 +22,42 @@ const CANDIDATE_PHENOTYPE_FIELDS = [
  * selected match and every entry in "Other cell type matches" so they're
  * visually identical except for the highlight styling.
  */
-function renderMatchBlock(row) {
+function renderMatchBlock(row, common) {
   const suggested = CANDIDATE_PHENOTYPE_FIELDS.filter((f) => row[f.key]);
   const neuronCurie = resolveNodeLink(row.Neuron_Connected).curie ?? row.Neuron_Connected;
+  // Soma, circuit role and organ are shown once at the top; only repeat them
+  // for a match that differs from it.
+  const somaRow =
+    row.Origin === common.Origin
+      ? ''
+      : `<tr><th>Soma</th><td>${linkTo(row.Origin, row.Origin_Structure)}</td></tr>`;
+  const roleRow =
+    row.Circuit_Role === common.Circuit_Role
+      ? ''
+      : `<tr><th>Circuit role</th><td>${linkTo(row.Circuit_Role, row.Circuit_Role_IRI)}</td></tr>`;
+  const organRow =
+    row.End_Organ === common.End_Organ
+      ? ''
+      : `<tr><th>Organ</th><td>${linkTo(row.End_Organ, row.End_Organ_IRI)}</td></tr>`;
 
   return `
     <p class="legend-subtitle">${linkTo(neuronCurie, row.Neuron_Connected)} (SCKAN)
       <span class="legend-arrow">⇢</span>
       ${linkTo(row.Cell_Type_Label, row.Cell_Type)}</p>
+    <p class="legend-match-meta"><strong>Species:</strong> ${linkToValues(row, 'Species', 'Species_IRI')}
+      <span class="legend-meta-sep">|</span> <strong>Marker gene:</strong> ${linkToValues(row, 'Gene_Label', 'Gene_IRI')}</p>
+    ${row.Literature_Citation ? `<p class="legend-match-meta"><strong>Citation:</strong> ${formatCitation(row.Literature_Citation)}</p>` : ''}
     <table class="legend-evidence-table">
       <tbody>
-        <tr><th>Local label</th><td>${linkTo(row.Cell_Type_Orig_Label, row.Cell_Type)}</td></tr>
-        <tr><th>Soma</th><td>${linkTo(row.Origin, row.Origin_Structure)}</td></tr>
-        <tr><th>Species</th><td>${linkToValues(row, 'Species', 'Species_IRI')}</td></tr>
-        <tr><th>Marker gene</th><td>${linkToValues(row, 'Gene_Label', 'Gene_IRI')}</td></tr>
-        <tr><th>Circuit role</th><td>${linkTo(row.Circuit_Role, row.Circuit_Role_IRI)}</td></tr>
-        <tr><th>End organ</th><td>${linkTo(row.End_Organ, row.End_Organ_IRI)}</td></tr>
-        ${row.Literature_Citation ? `<tr><th>Citation</th><td>${formatCitation(row.Literature_Citation)}</td></tr>` : ''}
+        ${somaRow}
+        ${roleRow}
+        ${organRow}
       </tbody>
     </table>
     ${
       suggested.length
         ? `
-      <h4 class="legend-subtitle">Candidate phenotypes to consider adding to this SCKAN population</h4>
+      <h4 class="legend-subtitle">${linkTo(neuronCurie, row.Neuron_Connected)} candidate phenotype(s) to add:</h4>
       <ul class="legend-suggested-list">
         ${suggested
           .map((f) => `<li><strong>${f.label}:</strong> ${linkToValues(row, f.key, f.iriKey)}</li>`)
@@ -84,7 +97,14 @@ export function renderEdgeLegend(container, context) {
 
   container.innerHTML = `
     <h3 class="legend-title">Candidate match evidence</h3>
-    <div class="legend-selected-match">${renderMatchBlock(row)}</div>
+    <table class="legend-evidence-table legend-common-table">
+      <tbody>
+        <tr><th>Soma</th><td>${linkTo(row.Origin, row.Origin_Structure)}</td></tr>
+        <tr><th>Circuit role</th><td>${linkTo(row.Circuit_Role, row.Circuit_Role_IRI)}</td></tr>
+        <tr><th>Organ</th><td>${linkTo(row.End_Organ, row.End_Organ_IRI)}</td></tr>
+      </tbody>
+    </table>
+    <div class="legend-selected-match">${renderMatchBlock(row, row)}</div>
     ${
       others.length
         ? `
@@ -93,7 +113,7 @@ export function renderEdgeLegend(container, context) {
         ${others
           .map(
             (r) => `
-          <div class="legend-match-card" data-cell-type="${encodeURIComponent(r.Cell_Type)}">${renderMatchBlock(r)}</div>`
+          <div class="legend-match-card" data-cell-type="${encodeURIComponent(r.Cell_Type)}">${renderMatchBlock(r, row)}</div>`
           )
           .join('')}
       </div>`

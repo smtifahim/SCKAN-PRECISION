@@ -77,9 +77,6 @@ PRECISION cell types ([`drg-organ-innervation.json`](../resource/json/drg-organ-
   card (never grows the page) listing each population's curie (linked to
   SCKAN Explorer), preferred label, and - when present - its candidate count
   plus the matched cell-type labels.
-- A couple of composer-drafted kidney populations need a distinguishing curie
-  prefix on SCKAN Explorer's side; see `CURIE_OVERRIDES` in
-  [`data/curie.js`](js/data/curie.js).
 - Every node is clickable: SCKAN populations open in
   [SCKAN Explorer](https://sckan-explorer.netlify.app), PRECISION cell types
   open in [NervoSensus](https://nervosensus.netlify.app), everything else
@@ -88,8 +85,8 @@ PRECISION cell types ([`drg-organ-innervation.json`](../resource/json/drg-organ-
   caption for the selected population into one downloadable PNG.
 - Switch to the **Table** view for a flat, filterable grid (with Threshold /
   Neurotransmitter Phenotype and Neural Circuit Membership columns) and an
-  **Export to Excel** button (downloads an HTML-table-based `.xls` file that
-  Excel opens natively, hyperlinks included).
+  **Export to Excel** button (downloads a real `.xlsx` workbook, with the
+  links kept as clickable hyperlinks).
 - Toggle diagram layout (left-to-right / top-to-bottom), and use
   **Reset filters** to clear all selections.
 

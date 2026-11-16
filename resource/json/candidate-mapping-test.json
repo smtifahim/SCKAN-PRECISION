@@ -19,6 +19,8 @@
       "Threshold_Phenotype",
       "Neurotransmitter_Phenotype_IRI",
       "Neurotransmitter_Phenotype",
+      "Neuron_Neurotransmitter_IRI",
+      "Neuron_Neurotransmitter",
       "Neural_Circuit_IRI",
       "Neural_Circuit"
     ]
@@ -22717,6 +22719,14 @@
         "Neurotransmitter_Phenotype": {
           "type": "literal",
           "value": "peptide"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -22773,6 +22783,14 @@
           "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
         },
         "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
           "type": "literal",
           "value": "peptide"
         }
@@ -22833,6 +22851,14 @@
         "Neurotransmitter_Phenotype": {
           "type": "literal",
           "value": "peptide"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -22889,6 +22915,14 @@
           "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
         },
         "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
           "type": "literal",
           "value": "peptide"
         }
@@ -22949,6 +22983,14 @@
         "Neurotransmitter_Phenotype": {
           "type": "literal",
           "value": "peptide"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -22999,6 +23041,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "C-NP.MRGPRX1/GFRA2"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -23049,6 +23099,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "C-NP.MRGPRX1/GFRA2"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -23099,6 +23157,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "C-NP.MRGPRX1/MRGPRX4"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -23149,6 +23215,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "C-NP.MRGPRX1/MRGPRX4"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -23199,6 +23273,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "C-NP.SST"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -23249,6 +23331,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "C-LTMR.CDH9"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -23299,6 +23389,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "C-Thermo.RXFP1"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -23349,6 +23447,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "C-Thermo.TRPM8"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -23399,6 +23505,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "putative C-LTMR"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -23449,6 +23563,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "hTRPM8"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -23499,6 +23621,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "hC.LTMR"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -23549,6 +23679,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "hC.LTMR"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -23599,6 +23737,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "hNP1"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         },
         "Neural_Circuit_IRI": {
           "type": "uri",
@@ -23658,6 +23804,14 @@
           "type": "literal",
           "value": "hNP1"
         },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
+        },
         "Neural_Circuit_IRI": {
           "type": "uri",
           "value": "http://uri.interlex.org/base/ilx_0796535"
@@ -23715,6 +23869,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "hNP1"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         },
         "Neural_Circuit_IRI": {
           "type": "uri",
@@ -23773,6 +23935,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "hNP1"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         },
         "Neural_Circuit_IRI": {
           "type": "uri",
@@ -23831,6 +24001,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "hNP2"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         },
         "Neural_Circuit_IRI": {
           "type": "uri",
@@ -23890,6 +24068,14 @@
           "type": "literal",
           "value": "hNP2"
         },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
+        },
         "Neural_Circuit_IRI": {
           "type": "uri",
           "value": "http://uri.interlex.org/base/ilx_0796535"
@@ -23947,6 +24133,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "hNP2"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         },
         "Neural_Circuit_IRI": {
           "type": "uri",
@@ -24006,6 +24200,14 @@
           "type": "literal",
           "value": "hNP2"
         },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
+        },
         "Neural_Circuit_IRI": {
           "type": "uri",
           "value": "http://uri.interlex.org/base/ilx_0796530"
@@ -24064,6 +24266,14 @@
           "type": "literal",
           "value": "hNP2"
         },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
+        },
         "Neural_Circuit_IRI": {
           "type": "uri",
           "value": "http://uri.interlex.org/base/ilx_0796530"
@@ -24121,6 +24331,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "hNP2"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         },
         "Neural_Circuit_IRI": {
           "type": "uri",
@@ -24180,6 +24398,14 @@
           "type": "literal",
           "value": "hSST"
         },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
+        },
         "Neural_Circuit_IRI": {
           "type": "uri",
           "value": "http://uri.interlex.org/base/ilx_0796530"
@@ -24237,6 +24463,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "hSST"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         },
         "Neural_Circuit_IRI": {
           "type": "uri",
@@ -24296,6 +24530,14 @@
           "type": "literal",
           "value": "hSST"
         },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
+        },
         "Neural_Circuit_IRI": {
           "type": "uri",
           "value": "http://uri.interlex.org/base/ilx_0796530"
@@ -24353,6 +24595,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "hSST"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         },
         "Neural_Circuit_IRI": {
           "type": "uri",
@@ -24412,6 +24662,14 @@
           "type": "literal",
           "value": "hSST"
         },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
+        },
         "Neural_Circuit_IRI": {
           "type": "uri",
           "value": "http://uri.interlex.org/base/ilx_0796530"
@@ -24469,6 +24727,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "hSST"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         },
         "Neural_Circuit_IRI": {
           "type": "uri",
@@ -24533,6 +24799,14 @@
           "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
         },
         "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
           "type": "literal",
           "value": "peptide"
         },
@@ -24599,6 +24873,14 @@
           "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
         },
         "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
           "type": "literal",
           "value": "peptide"
         },
@@ -24665,6 +24947,14 @@
           "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
         },
         "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
           "type": "literal",
           "value": "peptide"
         },
@@ -24734,6 +25024,14 @@
           "type": "literal",
           "value": "peptide"
         },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
+        },
         "Neural_Circuit_IRI": {
           "type": "uri",
           "value": "http://uri.interlex.org/base/ilx_0796530"
@@ -24791,6 +25089,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "Rxfp1"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -24841,6 +25147,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "Trpm8.1"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -24891,6 +25205,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "Trpm8.1"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -24941,6 +25263,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "PEP1.1.a"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -24991,6 +25321,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "PEP1.1.b"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -25041,6 +25379,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "PEP1.1.b"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -25091,6 +25437,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "PEP1.2"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -25141,6 +25495,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "PEP1.3.a"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -25191,6 +25553,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "PEP1.3.b"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -25241,6 +25611,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "PEP1.4"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -25291,6 +25669,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "NP3"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -25341,6 +25727,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "NP1"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -25391,6 +25785,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "NP2.1"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -25441,6 +25843,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "NP2.2"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -25491,6 +25901,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "NP2.2"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -25541,6 +25959,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "C.LTMR"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -25591,6 +26017,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "C-LTMR"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -25647,6 +26081,14 @@
           "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
         },
         "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
           "type": "literal",
           "value": "peptide"
         }
@@ -25707,6 +26149,14 @@
         "Neurotransmitter_Phenotype": {
           "type": "literal",
           "value": "peptide"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -25763,6 +26213,14 @@
           "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
         },
         "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
           "type": "literal",
           "value": "peptide"
         }
@@ -25823,6 +26281,14 @@
         "Neurotransmitter_Phenotype": {
           "type": "literal",
           "value": "peptide"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -25879,6 +26345,14 @@
           "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
         },
         "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
           "type": "literal",
           "value": "peptide"
         }
@@ -25939,6 +26413,14 @@
         "Neurotransmitter_Phenotype": {
           "type": "literal",
           "value": "peptide"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -25995,6 +26477,14 @@
           "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
         },
         "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
           "type": "literal",
           "value": "peptide"
         }
@@ -26055,6 +26545,14 @@
         "Neurotransmitter_Phenotype": {
           "type": "literal",
           "value": "peptide"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -26103,6 +26601,14 @@
           "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
         },
         "Neurotransmitter_Phenotype": {
+          "type": "literal",
+          "value": "peptide"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
           "type": "literal",
           "value": "peptide"
         }
@@ -26155,6 +26661,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "Mrgprd"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -26205,6 +26719,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "Mrgprd"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -26255,6 +26777,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "Sst"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -26305,6 +26835,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "Sst"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -26355,6 +26893,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "Sst"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -26405,6 +26951,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "Sst"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -26455,6 +27009,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "Sst"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -26497,6 +27059,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "Trmp8"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {
@@ -26547,6 +27117,14 @@
         "Cell_Type_Orig_Label": {
           "type": "literal",
           "value": "Trpm8"
+        },
+        "Neuron_Neurotransmitter_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/CHEBI_16670"
+        },
+        "Neuron_Neurotransmitter": {
+          "type": "literal",
+          "value": "peptide"
         }
       },
       {

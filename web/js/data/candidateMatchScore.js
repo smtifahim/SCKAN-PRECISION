@@ -30,6 +30,11 @@ export function matchedPhenotypeLabels(row) {
   return OPTIONAL_PHENOTYPE_FIELDS.filter((f) => row[f.key]).map((f) => f.label);
 }
 
+/** One flag per optional phenotype field, in OPTIONAL_PHENOTYPE_FIELDS order: is it populated for this row? */
+export function phenotypeFlags(row) {
+  return OPTIONAL_PHENOTYPE_FIELDS.map((f) => Boolean(row[f.key]));
+}
+
 /**
  * Reduce a neuron's candidate rows down to one best-scoring representative
  * row per distinct Cell_Type, sorted by score descending (ties broken

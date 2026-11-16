@@ -50,6 +50,7 @@ function serializeWithExplicitSize(svgEl) {
   clone.setAttribute('width', String(width));
   clone.setAttribute('height', String(height));
   clone.classList.remove('partial-order-svg');
+  clone.removeAttribute('style');
   return { svgString: new XMLSerializer().serializeToString(clone), width, height };
 }
 
@@ -78,28 +79,30 @@ async function svgElementToImage(svgEl) {
 
 /**
  * @param {Object} options
- * @param {SVGElement} options.legendSvgEl - the rendered legend <svg>
+ * @param {SVGElement} [options.legendSvgEl] - the rendered legend <svg>, if the view has one
  * @param {SVGElement} options.diagramSvgEl - the rendered diagram <svg>
- * @param {Array<{curie:string,label:string}>} options.captionRows
+ * @param {Array<{curie:string,label:string}>} [options.captionRows] - omit for no caption block
  * @param {string} [options.filename]
  */
 export async function exportDiagramPng({ legendSvgEl, diagramSvgEl, captionRows, filename = 'sckan-precision-diagram.png' }) {
-  const captionDot = buildCaptionDot(captionRows);
   const [legend, diagram, captionSvgString] = await Promise.all([
-    svgElementToImage(legendSvgEl),
+    legendSvgEl ? svgElementToImage(legendSvgEl) : null,
     svgElementToImage(diagramSvgEl),
-    renderDotToString(captionDot),
+    captionRows ? renderDotToString(buildCaptionDot(captionRows)) : null,
   ]);
-  const caption = { img: await svgStringToImage(captionSvgString), ...readCaptionSize(captionSvgString) };
+  const caption = captionSvgString
+    ? { img: await svgStringToImage(captionSvgString), ...readCaptionSize(captionSvgString) }
+    : null;
 
   // A small safety margin on the caption: even with Helvetica metrics,
   // different browsers' font rasterizers can disagree with Graphviz's
   // layout estimate by a few pixels, and it's cheap insurance against text
   // clipping at the right edge.
-  const captionWidthWithMargin = caption.width + 24;
-  const contentWidth = Math.max(legend.width, diagram.width, captionWidthWithMargin);
+  const pieces = [legend, diagram, caption].filter(Boolean);
+  const captionWidthWithMargin = caption ? caption.width + 24 : 0;
+  const contentWidth = Math.max(...pieces.map((p) => p.width), captionWidthWithMargin);
   const totalWidth = contentWidth + PADDING * 2;
-  const totalHeight = legend.height + diagram.height + caption.height + GAP * 2 + PADDING * 2;
+  const totalHeight = pieces.reduce((sum, p) => sum + p.height, 0) + GAP * (pieces.length - 1) + PADDING * 2;
 
   const canvas = document.createElement('canvas');
   canvas.width = Math.ceil(totalWidth * EXPORT_SCALE);
@@ -110,7 +113,7 @@ export async function exportDiagramPng({ legendSvgEl, diagramSvgEl, captionRows,
   ctx.fillRect(0, 0, totalWidth, totalHeight);
 
   let y = PADDING;
-  for (const piece of [legend, diagram, caption]) {
+  for (const piece of pieces) {
     const x = PADDING + (contentWidth - piece.width) / 2;
     ctx.drawImage(piece.img, x, y, piece.width, piece.height);
     y += piece.height + GAP;

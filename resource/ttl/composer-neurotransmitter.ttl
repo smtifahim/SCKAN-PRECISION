@@ -1,0 +1,10 @@
+@prefix CHEBI: <http://purl.obolibrary.org/obo/CHEBI_> .
+@prefix ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/> .
+@prefix pain2: <http://uri.interlex.org/composer/uris/set/pain2/> .
+
+# SCKAN populations in composer.ttl (sets pain1: and pain2:) that carry
+# neurdf.eqv:hasNeurotransmitterPhenotype, restated with ilxtr:hasNeurotransmitter.
+# Source statement: pain2:8 neurdf.eqv:hasNeurotransmitterPhenotype CHEBI:16670 .
+# This is the only such population in the pain1: / pain2: sets.
+
+pain2:8 ilxtr:hasNeurotransmitter CHEBI:16670 .

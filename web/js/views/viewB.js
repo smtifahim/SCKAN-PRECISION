@@ -247,7 +247,7 @@ export async function initViewB(root) {
   els.exportExcelBtn.addEventListener('click', () => {
     const tableEl = els.tableContainer.querySelector('#candidate-mapping-table-b');
     if (!tableEl) return;
-    exportTableAsExcel(tableEl, 'sckan-precision-candidate-mappings-b.xls');
+    exportTableAsExcel(tableEl, 'sckan-precision-candidate-mappings-b.xlsx');
   });
 
   let currentFacetState = computeFacetState(model, state);
@@ -275,13 +275,22 @@ export async function initViewB(root) {
     const pill = `<span class="population-badge population-badge-match">${p.matchedCandidateCount} candidate${p.matchedCandidateCount === 1 ? '' : 's'}</span>`;
     // Already sorted strongest-match-first by cascadeB.js; show each
     // candidate's phenotype-overlap score alongside its label.
-    const chips = p.matchedCandidates.map(
-      (c) => `<span class="candidate-chip">${linkTo(c.label, c.iri)} <span class="candidate-chip-score">${c.score}/${OPTIONAL_PHENOTYPE_FIELDS.length}</span></span>`
-    );
+    const chips = p.matchedCandidates.map((c) => {
+      const names = OPTIONAL_PHENOTYPE_FIELDS.map((f) => f.label);
+      const dots = c.flags
+        .map((on, i) => `<span class="phenotype-dot${on ? ' is-on' : ''}" title="${names[i]}: ${on ? 'annotated' : 'not annotated'}"></span>`)
+        .join('');
+      const summary = `${c.score}/${names.length} supporting phenotypes - click for details`;
+      return `<span class="candidate-chip">${linkTo(c.label, c.iri)} <span class="phenotype-dots" data-cell-type="${encodeURIComponent(c.iri)}" title="${summary}">${dots}</span></span>`;
+    });
     return buildCandidateRows(pill, chips);
   }
 
   let userResizedPopulationPanel = false;
+  // Which candidate to open in the evidence panel after the next render: 'first'
+  // (the "N candidates" pill was clicked), a cell type IRI (its phenotype
+  // dots were clicked), or null.
+  let pendingCandidate = null;
   els.populationResizeHandle.addEventListener('pointerdown', () => {
     userResizedPopulationPanel = true;
   });
@@ -364,6 +373,12 @@ export async function initViewB(root) {
     if (!row) return;
     selectedNeuronIri = decodeURIComponent(row.dataset.iri);
     selectedCandidateRow = null;
+    const dots = event.target.closest('.phenotype-dots');
+    pendingCandidate = dots
+      ? decodeURIComponent(dots.dataset.cellType)
+      : event.target.closest('.population-badge-match')
+        ? 'first'
+        : null;
     [...els.populationCaptionTable.querySelectorAll('.population-row')].forEach((r) =>
       r.classList.toggle('is-active', r === row)
     );
@@ -417,6 +432,14 @@ export async function initViewB(root) {
     if (selectedCandidateRow) {
       selectedCandidateRow = candidateRows.find((r) => r.Cell_Type === selectedCandidateRow.Cell_Type) ?? null;
     }
+    if (pendingCandidate === 'first') {
+      // The pill lists the strongest match first, so open that one.
+      selectedCandidateRow =
+        [...candidateRows].sort((a, b) => scoreCandidateRow(b) - scoreCandidateRow(a))[0] ?? null;
+    } else if (pendingCandidate) {
+      selectedCandidateRow = candidateRows.find((r) => r.Cell_Type === pendingCandidate) ?? null;
+    }
+    pendingCandidate = null;
 
     function showEdgeLegend(row) {
       selectedCandidateRow = row;

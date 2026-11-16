@@ -1,14 +1,13 @@
 // Candidate cell type rows for the SCKAN population panel, shared by View (A)
-// and View (B): the count pill plus up to 2 chips on the first row, then 2
-// chips per row. When the chips need more than MAX_VISIBLE_LINES rendered
+// and View (B): the count pill on its own row, then 2 chips per row. When the
+// chips need more than MAX_VISIBLE_LINES rendered
 // lines (long names wrap), everything past that sits behind a "See more" /
 // "Show less" toggle. Line counts come from the rendered layout, so
 // refreshCandidateCollapse() must run after the panel is rendered and again
 // whenever its width changes (observeCandidateCollapse does the latter).
 
-const CHIPS_FIRST_ROW = 2;
 const CHIPS_PER_ROW = 2;
-export const MAX_VISIBLE_LINES = 2;
+export const MAX_VISIBLE_LINES = 3; // the pill's own row plus two rows of chips
 const LINE_TOLERANCE_PX = 6; // chips of different heights sit a few px apart on the same line
 
 /**
@@ -17,8 +16,8 @@ const LINE_TOLERANCE_PX = 6; // chips of different heights sit a few px apart on
  * @returns {string} HTML for the whole candidates cell
  */
 export function buildCandidateRows(pill, chips) {
-  const rows = [`<div class="candidate-row">${pill}${chips.slice(0, CHIPS_FIRST_ROW).join('')}</div>`];
-  for (let i = CHIPS_FIRST_ROW; i < chips.length; i += CHIPS_PER_ROW) {
+  const rows = [`<div class="candidate-row">${pill}</div>`];
+  for (let i = 0; i < chips.length; i += CHIPS_PER_ROW) {
     rows.push(`<div class="candidate-row">${chips.slice(i, i + CHIPS_PER_ROW).join('')}</div>`);
   }
   return `<div class="population-candidates">${rows.join('')}</div>`;

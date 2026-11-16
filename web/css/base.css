@@ -243,7 +243,7 @@ h1, h2, h3, h4 {
 }
 
 .diagram-box {
-  position: relative; /* anchors the pathway toggle + zoom controls toolbar */
+  position: relative;
 }
 
 .evidence-panel[hidden],

@@ -21,25 +21,42 @@ import { OPTIONAL_PHENOTYPE_FIELDS, scoreCandidateRow, rankCandidatesByScore } f
  * "Other cell type matches" so they're visually identical except for the
  * highlight styling.
  */
-function renderMatchBlock(row) {
+function renderMatchBlock(row, common) {
   const neuronCurie = resolveNodeLink(row.Neuron_Connected).curie ?? row.Neuron_Connected;
   const score = scoreCandidateRow(row);
-  const optionalRows = OPTIONAL_PHENOTYPE_FIELDS.filter((f) => row[f.key])
-    .map((f) => `<tr><th>${f.label}</th><td>${linkToValues(row, f.key, `${f.key}_IRI`)}</td></tr>`)
-    .join('');
+  // The required criteria (soma, circuit role, axon type) are shown once at
+  // the top; only repeat one for a match that differs from it.
+  const somaRow =
+    row.Origin === common.Origin
+      ? ''
+      : `<tr><th>Soma</th><td>${linkTo(row.Origin, row.Origin_IRI)}</td></tr>`;
+  const roleRow =
+    row.Circuit_Role === common.Circuit_Role
+      ? ''
+      : `<tr><th>Circuit role</th><td>${linkTo(row.Circuit_Role, row.Circuit_Role_IRI)}</td></tr>`;
+  const axonRow =
+    row.Axon_Type === common.Axon_Type
+      ? ''
+      : `<tr><th>Axon / fiber type</th><td>${linkTo(row.Axon_Type, row.Axon_Type_IRI)}</td></tr>`;
+  // Fixed-order checklist: annotated phenotypes show their values, the rest are dimmed.
+  const phenotypeRows = OPTIONAL_PHENOTYPE_FIELDS.map((f) =>
+    row[f.key]
+      ? `<tr class="phenotype-on"><th><span class="phenotype-mark">✓</span> ${f.label}</th><td>${linkToValues(row, f.key, `${f.key}_IRI`)}</td></tr>`
+      : `<tr class="phenotype-off"><th><span class="phenotype-mark">○</span> ${f.label}</th><td>not annotated</td></tr>`
+  ).join('');
 
   return `
     <p class="legend-subtitle">${linkTo(neuronCurie, row.Neuron_Connected)} (SCKAN)
       <span class="legend-arrow">⇢</span>
       ${linkTo(row.Cell_Type_Label, row.Cell_Type)}
-      <span class="legend-match-score" title="${score} of ${OPTIONAL_PHENOTYPE_FIELDS.length} optional phenotype fields matched">${score}/${OPTIONAL_PHENOTYPE_FIELDS.length} matched</span></p>
+      <span class="legend-match-score" title="${score} of ${OPTIONAL_PHENOTYPE_FIELDS.length} optional phenotypes are annotated on this cell type">${score}/${OPTIONAL_PHENOTYPE_FIELDS.length} supporting phenotypes</span></p>
     <table class="legend-evidence-table">
       <tbody>
         <tr><th>Local label</th><td>${linkTo(row.Cell_Type_Orig_Label, row.Cell_Type)}</td></tr>
-        <tr><th>Soma</th><td>${linkTo(row.Origin, row.Origin_IRI)}</td></tr>
-        <tr><th>Circuit role</th><td>${linkTo(row.Circuit_Role, row.Circuit_Role_IRI)}</td></tr>
-        <tr><th>Axon / fiber type</th><td>${linkTo(row.Axon_Type, row.Axon_Type_IRI)}</td></tr>
-        ${optionalRows}
+        ${somaRow}
+        ${roleRow}
+        ${axonRow}
+        ${phenotypeRows}
       </tbody>
     </table>
   `;
@@ -72,7 +89,15 @@ export function renderEdgeLegend(container, context) {
 
   container.innerHTML = `
     <h3 class="legend-title">Candidate match evidence</h3>
-    <div class="legend-selected-match">${renderMatchBlock(row)}</div>
+    <h4 class="legend-subtitle legend-common-title">Matched on (all candidates)</h4>
+    <table class="legend-evidence-table legend-common-table">
+      <tbody>
+        <tr><th>Soma</th><td>${linkTo(row.Origin, row.Origin_IRI)}</td></tr>
+        <tr><th>Circuit role</th><td>${linkTo(row.Circuit_Role, row.Circuit_Role_IRI)}</td></tr>
+        <tr><th>Axon / fiber type</th><td>${linkTo(row.Axon_Type, row.Axon_Type_IRI)}</td></tr>
+      </tbody>
+    </table>
+    <div class="legend-selected-match">${renderMatchBlock(row, row)}</div>
     ${
       others.length
         ? `
@@ -81,7 +106,7 @@ export function renderEdgeLegend(container, context) {
         ${others
           .map(
             (r) => `
-          <div class="legend-match-card" data-cell-type="${encodeURIComponent(r.Cell_Type)}">${renderMatchBlock(r)}</div>`
+          <div class="legend-match-card" data-cell-type="${encodeURIComponent(r.Cell_Type)}">${renderMatchBlock(r, row)}</div>`
           )
           .join('')}
       </div>`

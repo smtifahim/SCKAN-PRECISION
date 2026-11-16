@@ -8,6 +8,7 @@ export const DATA_PATHS = {
   drgOrganInnervation: '../resource/json/drg-organ-innervation.json',
   drgPartialOrder: '../resource/json/drg-partial-order.json',
   candidateMapping: '../resource/json/candidate-mapping.json',
+  candidateMappingTest: '../resource/json/candidate-mapping-test.json',
   fiberTypeHierarchy: '../resource/json/fiber-type-hierarchy.json',
   synonymsGene: '../resource/json/synonyms-gene.json',
   synonymsOrgans: '../resource/json/synonyms-organs.json',
